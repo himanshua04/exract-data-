@@ -1,0 +1,39 @@
+1) required Python
+
+# Steps to install Python					
+										
+ Link to download the latest Python version ( Windows 32 - bit ) -   Download										
+ Link to download the latest  Python ( Windows 64 - bit ) -  Download										
+																				
+										
+1 . After Downloading , Double-click the icon labeling the file python-3.8.5-amd64.exe. ( Incase of Windows - 64 bit ) - A Python 3.8.5 (64-bit) Setup pop-up window will appear. 										
+2 . Ensure that the Install launcher for all users (recommended) and the Add Python 3.7 to PATH checkboxes at the bottom are checked.If the Python Installer finds an earlier version of Python installed on your computer, the Install Now message may instead appear as Upgrade Now (and the checkboxes will not appear). 										
+3 . Highlight the Install Now (or Upgrade Now) message, and then click it. When run, a User Account Control pop-up window may appear on your screen.  										
+4 . Click the Yes button. A new Python 3.8.5 (64-bit) Setup pop-up window will appear with a Setup Progress message and a progress bar.  										
+5 .  Once installation is completed , Python 3.8.5 (64-bit) Setup pop-up window will appear with a Setup was successfully message. 										
+6 . Click the Close button. 										
+										
+Verifying Python is installed or not										
+										
+1 . Go to Command prompt										
+2 . Type command python --version : This command gives python version installed in your system .
+
+######
+2) Installing pytest
+
+> pip install -U pytest
+
+> pytest --version
+
+
+#######
+
+pip packages
+- pip install selenium
+- pip install python-interface
+- pip install Appium-Python-Client
+- pip install -U pytest
+- pip install allure-pytest
+- pip install pytest-datadir
+- pip install pytest-html
+- pip install requests
