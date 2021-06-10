@@ -8,6 +8,7 @@ from xlwt import Workbook
 import datetime 
 
 
+
 class TestTomorrow():
 
 
@@ -26,6 +27,7 @@ class TestTomorrow():
             # add_sheet is used to create sheet.
             sheet1 = wb.add_sheet('Sheet 1')
 
+            self.pg_tomorrow.inisilizeSheetDetails(sheet1)
             sheet1.write(1, 0, 'ISBT DEHRADUN')
             sheet1.write(2, 0, 'SHASTRADHARA')
             self.pg_tomorrow.saveExcelFile(wb)
