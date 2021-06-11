@@ -50,5 +50,12 @@
             "XPATH",
             "(//div[@class='seven columns']//tr/td/font[@style='font-size:20px;color:#fafafa;'])"
         ]
+    ],
+    "field4":
+    [
+        [
+            "XAPTH",
+            "(//table[@width='99%'']//tr[@class='trow3']//td[@align='center']/font[@color='#555555'])[3]"
+        ]
     ]
 }

@@ -53,26 +53,23 @@ class TomorrowPage(PageFactory):
         sheet1.write(0, 13, 'O05HT',style)
         sheet1.write(0, 14, 'O15HT',style)
         sheet1.write(0, 15, 'O25HT',style)
-        sheet1.write(0, 16, 'HLT',style)
-        sheet1.write(0, 17, 'ALT',style)
-        sheet1.write(0, 18, 'HFT',style)
-        sheet1.write(0, 19, 'AFT',style)
-        sheet1.write(0, 20, 'HHT',style) 
-        sheet1.write(0, 21, 'AAT',style)
-        sheet1.write(0, 22, 'HHPM',style)
-        sheet1.write(0, 23, 'AAPM',style)
-        sheet1.write(0, 24, 'AGF',style)
-        sheet1.write(0, 25, 'AGA',style)
-        sheet1.write(0, 26, 'ATG',style)
-        sheet1.write(0, 27, 'SR',style)
-        sheet1.write(0, 28, 'CS',style)
-        sheet1.write(0, 29, 'FS',style)
-        sheet1.write(0, 30,'SBH',style)
-        sheet1.write(0, 31, 'CBH',style)
-        sheet1.write(0, 32, 'LAGM',style)
-        sheet1.write(0, 33, 'HG',style)
-        sheet1.write(0, 34, 'AG',style)
-        sheet1.write(0, 35, 'WPL',style)
+        sheet1.write(0, 16, 'HHPM',style)
+        sheet1.write(0, 17, 'AAPM',style)
+        sheet1.write(0, 18, 'AGF',style)
+        sheet1.write(0, 19, 'AGA',style)
+        sheet1.write(0, 20, 'ATG',style)
+        sheet1.write(0, 21, 'SR',style)
+        sheet1.write(0, 22, 'CR',style)
+        sheet1.write(0, 23, 'CS',style)
+        sheet1.write(0, 24, 'FS',style)
+        sheet1.write(0, 25,'SBH',style)
+        sheet1.write(0, 26, 'CBH',style)
+        sheet1.write(0, 27, 'LAGM',style)
+        sheet1.write(0, 28, 'O95C',style)
+        sheet1.write(0, 29, 'O105C',style)
+        sheet1.write(0, 30, 'HG',style)
+        sheet1.write(0, 31, 'AG',style)
+        sheet1.write(0, 32, 'WPL',style)
         
 
     def goToUrl(self,url):
@@ -102,134 +99,235 @@ class TomorrowPage(PageFactory):
         self.extractDataTomorrow(i,sheet1)
     
     def extractDataTomorrow(self,row,sheet1):
-        data1=self.field1.get_text()
-        data1=data1.split(" ")
+        try:
+            data1=self.field1.get_text()
+            data1=data1.split(" ")
+    
+            #column 0
+            sheet1.write(row,0,row)
+            #column 1 
+            sheet1.write(row,1,data1[1]+data1[2])
+    
+            #column 2
+            sheet1.write(row,2,data1[3])
+        except Exception :
+            logging.warning("for row {row} the coulum 1 and 2 is not present")
 
-        #column 0
-        sheet1.write(row,0,row)
-        #column 1 
-        sheet1.write(row,1,data1[1]+data1[2])
+        try:
+            data2=self.field2.get_text()
+            data2=data2.split("-")
 
-        #column 2
-        sheet1.write(row,2,data1[3])
+            #column 3
+            sheet1.write(row,3,data2[0])
 
-        data2=self.field2.get_text()
-        data2=data2.split("-")
-
-        #column 3
-        sheet1.write(row,3,data2[0])
-
-        #column 4
-        sheet1.write(row,4,data2[1])
+            #column 4
+            sheet1.write(row,4,data2[1])
+        except Exception :
+            logging.warning("for row {row} the coulum 3 and 4 is not present")
         
-        data=self.field3.get_text()
-        data=data.split(" ")
+        try:
+            data=self.field3.get_text()
+            data=data.split(" ")
 
-        #column 5
-        sheet1.write(row,5,data[0])
+            #column 5
+            sheet1.write(row,5,data[0])
 
-        #column 6
-        sheet1.write(row,6,data[2])
+            #column 6
+            sheet1.write(row,6,data[2])
+        except Exception :
+            logging.warning("for row {row} the coulum 5 and 6 is not present")
 
-        #column 7
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",14)
-        data=custom_locator.get_text()
-        sheet1.write(row,7,data)
         
-        #column 8
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",15)
-        data=custom_locator.get_text()
-        sheet1.write(row,8,data)
+        try:
+            #column 7
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",14)
+            data=custom_locator.get_text()
+            sheet1.write(row,7,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 7 is not present")
+        
+        try:
+            #column 8
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",15)
+            data=custom_locator.get_text()
+            sheet1.write(row,8,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 8 is not present")
 
-        #column 9
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",16)
-        data=custom_locator.get_text()
-        sheet1.write(row,9,data)
+        try:
+            #column 9
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",16)
+            data=custom_locator.get_text()
+            sheet1.write(row,9,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 9 is not present")
 
-        #column 10
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",17)
-        data=custom_locator.get_text()
-        sheet1.write(row,10,data)
+        try:
+            #column 10
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",17)
+            data=custom_locator.get_text()
+            sheet1.write(row,10,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 10 is not present")
 
-        #column 11
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",18)
-        data=custom_locator.get_text()
-        sheet1.write(row,11,data)
+        try:
+            #column 11
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",18)
+            data=custom_locator.get_text()
+            sheet1.write(row,11,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 11 is not present")
 
-        #column 12
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",19)
-        data=custom_locator.get_text()
-        sheet1.write(row,12,data)
+        try:
+            #column 12
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",19)
+            data=custom_locator.get_text()
+            sheet1.write(row,12,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 12 is not present")
 
-        #column 13
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",20)
-        data=custom_locator.get_text()
-        sheet1.write(row,13,data)
+        try:
+            #column 13
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",20)
+            data=custom_locator.get_text()
+            sheet1.write(row,13,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 13 is not present")
+        
+        try:
+            #column 14
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",21)
+            data=custom_locator.get_text()
+            sheet1.write(row,14,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 14 is not present")
 
-        #column 14
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",21)
-        data=custom_locator.get_text()
-        sheet1.write(row,14,data)
+        try:
+            #column 15
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",22)
+            data=custom_locator.get_text()
+            sheet1.write(row,15,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 15 is not present")
 
-        #column 15
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",22)
-        data=custom_locator.get_text()
-        sheet1.write(row,15,data)
+        try:
+            #column 16
+            custom_locator=self.createCustomLocator("//table[@cellspacing='0']//tr[@class='trow3']/td[@align='center']/b",3)
+            data=custom_locator.get_text()
+            sheet1.write(row,16,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 16 is not present")
 
-        #column 16
-        custom_locator=self.createCustomLocator("//table[@cellspacing='0']//tr[@class='trow3']/td[@align='center']/b",3)
-        data=custom_locator.get_text()
-        sheet1.write(row,16,data)
+        try:
+            #column 17
+            custom_locator=self.createCustomLocator("//table[@cellspacing='0']//tr[@class='trow3']/td[@align='center']/b",4)
+            data=custom_locator.get_text()
+            sheet1.write(row,17,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 17 is not present")
 
-        #column 17
-        custom_locator=self.createCustomLocator("//table[@cellspacing='0']//tr[@class='trow3']/td[@align='center']/b",4)
-        data=custom_locator.get_text()
-        sheet1.write(row,17,data)
+        try:
+            #column 18
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",1)
+            data=custom_locator.get_text()
+            sheet1.write(row,18,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 18 is not present")
 
-        #column 18
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",1)
-        data=custom_locator.get_text()
-        sheet1.write(row,18,data)
+        try:
+            #column 19
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",2)
+            data=custom_locator.get_text()
+            sheet1.write(row,19,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 19 is not present")
 
-        #column 19
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",2)
-        data=custom_locator.get_text()
-        sheet1.write(row,19,data)
+        try:
+            #column 20
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",3)
+            data=custom_locator.get_text()
+            sheet1.write(row,20,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 20 is not present")
 
-        #column 20
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",3)
-        data=custom_locator.get_text()
-        sheet1.write(row,20,data)
+        try:
+            #column 21
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",4)
+            data=custom_locator.get_text()
+            sheet1.write(row,21,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 21 is not present")
 
-        #column 21
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",4)
-        data=custom_locator.get_text()
-        sheet1.write(row,21,data)
+        try:
+            #column 22
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",5)
+            data=custom_locator.get_text()
+            sheet1.write(row,22,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 22 is not present")
 
-        #column 22
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",5)
-        data=custom_locator.get_text()
-        sheet1.write(row,22,data)
+        try:
+            #column 23
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",6)
+            data=custom_locator.get_text()
+            sheet1.write(row,23,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 23 is not present")
 
-        #column 23
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",6)
-        data=custom_locator.get_text()
-        sheet1.write(row,23,data)
+        try:
+            #column 24
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",7)
+            data=custom_locator.get_text()
+            sheet1.write(row,24,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 24 is not present")
+        
+        try:
+            #column 25
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",8)
+            data=custom_locator.get_text()
+            sheet1.write(row,25,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 25 is not present")
 
-        #column 24
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",7)
-        data=custom_locator.get_text()
-        sheet1.write(row,24,data)
+        try:
+            #column 26
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",9)
+            data=custom_locator.get_text()
+            sheet1.write(row,26,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 26 is not present")
 
-        #column 25
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",8)
-        data=custom_locator.get_text()
-        sheet1.write(row,25,data)
+        try:
+            #column 27
+            data=self.field4.get_text()
+            sheet1.write(row,27,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 27 is not present")
 
-        #column 26
-        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",9)
-        data=custom_locator.get_text()
-        sheet1.write(row,26,data)
+        try:
+            #column 28
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",26)
+            data=custom_locator.get_text()
+            sheet1.write(row,28,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 28 is not present")
+
+        try:
+            #column 29
+            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",27)
+            data=custom_locator.get_text()
+            sheet1.write(row,29,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 29 is not present")
+
+        try:
+            #column 32
+            data=self.driver.current_url()
+            sheet1.write(row,32,data)
+        except Exception :
+            logging.warning("for row {row} the coulum 32 is not present")
+        
 
 
 
@@ -239,7 +337,8 @@ class TomorrowPage(PageFactory):
         _locator = ["XPATH"]
         _locator.append(f"({locator_name})[{index}]")
         self.locators.update({"custom_locator":[_locator]})
-        self.custom_locator.scroll_to_element()
+        if(selenium_helper.is_element_present(self.locators["custom_locator"][0],0)):
+            self.custom_locator.scroll_to_element()
         return self.custom_locator
 
 

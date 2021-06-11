@@ -1,17 +1,64 @@
-2021-06-11 14:59:35,755 :INFO : setup : creating driver for provided browser  - chrome
-2021-06-11 14:59:50,639 :ERROR : setup : Message: 
+2021-06-11 20:49:28,865 :INFO : setup : creating driver for provided browser  - chrome
+2021-06-11 20:49:42,174 :ERROR : setup : Message: 
 
-2021-06-11 14:59:50,649 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
-2021-06-11 14:59:52,758 :ERROR : setup : Message: 
+2021-06-11 20:49:42,182 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
+2021-06-11 20:49:44,282 :ERROR : setup : Message: 
 
-2021-06-11 14:59:52,762 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
-2021-06-11 15:00:07,664 :ERROR : setup : Message: 
+2021-06-11 20:49:44,289 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
+2021-06-11 20:49:54,373 :ERROR : setup : Message: 
 
-2021-06-11 15:00:07,669 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
-2021-06-11 15:00:08,162 :WARNING : setup : 242
-2021-06-11 15:00:28,291 :ERROR : setup : Message: 
+2021-06-11 20:49:54,378 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-11 20:49:54,864 :WARNING : setup : 225
+2021-06-11 20:50:05,371 :ERROR : setup : Message: 
 
-2021-06-11 15:00:28,299 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=144-1-27-2021-crucero-del-n.-chaco-for-ever is not present
-2021-06-11 15:00:30,360 :ERROR : setup : Message: 
+2021-06-11 20:50:05,375 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:07,428 :ERROR : setup : Message: 
 
-2021-06-11 15:00:30,363 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=144-1-27-2021-crucero-del-n.-chaco-for-ever is not present
+2021-06-11 20:50:07,433 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:08,400 :ERROR : setup : Message: 
+
+2021-06-11 20:50:08,404 :WARNING : setup : the locator ('xpath', "(//font[@style='font-size:14px;'])[16]") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:13,559 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:13,559 :WARNING : setup : for row {row} the coulum 9 is not present
+2021-06-11 20:50:14,079 :ERROR : setup : Message: 
+
+2021-06-11 20:50:14,083 :WARNING : setup : the locator ('xpath', "(//font[@style='font-size:14px;'])[17]") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:19,259 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:19,259 :WARNING : setup : for row {row} the coulum 10 is not present
+2021-06-11 20:50:19,787 :ERROR : setup : Message: 
+
+2021-06-11 20:50:19,791 :WARNING : setup : the locator ('xpath', "(//font[@style='font-size:14px;'])[18]") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:24,967 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:24,967 :WARNING : setup : for row {row} the coulum 11 is not present
+2021-06-11 20:50:25,487 :ERROR : setup : Message: 
+
+2021-06-11 20:50:25,491 :WARNING : setup : the locator ('xpath', "(//font[@style='font-size:14px;'])[19]") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:30,665 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:30,665 :WARNING : setup : for row {row} the coulum 12 is not present
+2021-06-11 20:50:31,179 :ERROR : setup : Message: 
+
+2021-06-11 20:50:31,182 :WARNING : setup : the locator ('xpath', "(//font[@style='font-size:14px;'])[20]") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:36,320 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:36,320 :WARNING : setup : for row {row} the coulum 13 is not present
+2021-06-11 20:50:36,906 :ERROR : setup : Message: 
+
+2021-06-11 20:50:36,910 :WARNING : setup : the locator ('xpath', "(//font[@style='font-size:14px;'])[21]") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:42,057 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:42,058 :WARNING : setup : for row {row} the coulum 14 is not present
+2021-06-11 20:50:42,584 :ERROR : setup : Message: 
+
+2021-06-11 20:50:42,588 :WARNING : setup : the locator ('xpath', "(//font[@style='font-size:14px;'])[22]") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:47,753 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:47,754 :WARNING : setup : for row {row} the coulum 15 is not present
+2021-06-11 20:50:49,454 :WARNING : setup : for row {row} the coulum 27 is not present
+2021-06-11 20:50:49,973 :ERROR : setup : Message: 
+
+2021-06-11 20:50:49,977 :WARNING : setup : the locator ('xpath', "(//font[@style='font-size:14px;'])[26]") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:55,141 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:50:55,141 :WARNING : setup : for row {row} the coulum 28 is not present
+2021-06-11 20:50:55,663 :ERROR : setup : Message: 
+
+2021-06-11 20:50:55,668 :WARNING : setup : the locator ('xpath', "(//font[@style='font-size:14px;'])[27]") on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:51:00,827 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia4&stats=83-10-13-2021-capalaba-eastern-suburbs is not present
+2021-06-11 20:51:00,828 :WARNING : setup : for row {row} the coulum 29 is not present
+2021-06-11 20:51:00,832 :WARNING : setup : for row {row} the coulum 32 is not present
