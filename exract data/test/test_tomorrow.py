@@ -6,6 +6,7 @@ import os
 import xlwt
 from xlwt import Workbook
 import datetime 
+from selenium.webdriver.chrome.options import Options
 
 
 
@@ -17,19 +18,29 @@ class TestTomorrow():
             self.pg_tomorrow = TomorrowPage(pytest.driver)
         
         def test_get_details_of_tomorrow_match(self,initialize_pages,testdata):
-
-            pytest.driver.get(testdata['url'])
-             
-  
             # Workbook is created
             wb = Workbook()
 
             # add_sheet is used to create sheet.
             sheet1 = wb.add_sheet('Sheet 1')
 
+            # inisiazie the first coulum of sheet
             self.pg_tomorrow.inisilizeSheetDetails(sheet1)
-            sheet1.write(1, 0, 'ISBT DEHRADUN')
-            sheet1.write(2, 0, 'SHASTRADHARA')
+
+            self.pg_tomorrow.goToUrl(testdata['tomorrow_url'])
+            
+            self.pg_tomorrow.clickOnStats(self.pg_tomorrow.btn_stats)
+            
+            self.pg_tomorrow.goToUrl(testdata['tomorrow_url'])
+            self.pg_tomorrow.startProcessing("//a[@class='myButton']",sheet1)
+            time.sleep(10)
+
+
+
+        
+            
+           
             self.pg_tomorrow.saveExcelFile(wb)
-            #wb.save('xlwt example.xls')
-            #time.sleep(10)
+
+            
+            

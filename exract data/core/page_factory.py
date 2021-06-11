@@ -322,6 +322,13 @@ class ElementWrapper:
         :return: None / depends on Script
         """
         return self.parent.execute_script(script, self)
+    
+    def scroll_to_element(self):
+        """
+        Execute JavaScript using web driver on selected web element
+        to Scroll to View the Element
+        """
+        return self.parent.execute_script("arguments[0].scrollIntoView({behavior: \"auto\", block: \"center\", inline: \"center\"});", self)
 
 
 class MobileElementWrapper(ElementWrapper):
@@ -329,6 +336,7 @@ class MobileElementWrapper(ElementWrapper):
 
 
 WebElement.get_all_elements = ElementWrapper.get_all_elements
+WebElement.scroll_to_element = ElementWrapper.scroll_to_element
 WebElement.click_button = ElementWrapper.click_button
 WebElement.double_click = ElementWrapper.double_click
 WebElement.context_click = ElementWrapper.context_click

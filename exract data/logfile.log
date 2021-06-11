@@ -1,1 +1,17 @@
-2021-06-10 20:05:20,868 :INFO : setup : creating driver for provided browser  - chrome
+2021-06-11 11:08:01,755 :INFO : setup : creating driver for provided browser  - chrome
+2021-06-11 11:08:17,059 :ERROR : setup : Message: 
+
+2021-06-11 11:08:17,066 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
+2021-06-11 11:08:19,160 :ERROR : setup : Message: 
+
+2021-06-11 11:08:19,165 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
+2021-06-11 11:08:33,074 :ERROR : setup : Message: 
+
+2021-06-11 11:08:33,077 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-11 11:08:33,609 :WARNING : setup : 242
+2021-06-11 11:08:43,197 :ERROR : setup : Message: 
+
+2021-06-11 11:08:43,201 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=144-1-27-2021-crucero-del-n.-chaco-for-ever is not present
+2021-06-11 11:08:45,270 :ERROR : setup : Message: 
+
+2021-06-11 11:08:45,273 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=144-1-27-2021-crucero-del-n.-chaco-for-ever is not present

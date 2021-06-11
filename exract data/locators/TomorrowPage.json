@@ -1,7 +1,40 @@
 {
-    "btn":[
+    "btn_agree":[
         [
-            
+            "CSS",
+            "button[class=' css-47sehv']"
+        ]
+    ],
+    "ad_close":[
+        [
+            "XPATH",
+            "//span[text()='Close']"
+        ]
+    ],
+    "cross_add":[
+        [
+            "CSS",
+            "div[class='btn skip dismiss-button-container']"
+        ]
+    ],
+    "btn_stats":[
+        [
+            "XPATH",
+            "//a[@class='myButton']"
+        ]
+    ],
+    "show_all_matches":
+    [
+        [
+            "CSS",
+            "button[style='padding-top:2px;padding-bottom:2px;padding-left:12px;padding-right:12px;color:#555555;height:30px;']"
+        ]
+    ],
+    "field1":
+    [
+        [
+            "XPATH",
+            "//div[@class='seven columns']/child::table[@bgcolor='#666666']/child::tbody//child::td[@align='center']/child::font[@color='#444444']"
         ]
     ]
 }
