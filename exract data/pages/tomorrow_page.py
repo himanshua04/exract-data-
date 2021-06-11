@@ -113,6 +113,136 @@ class TomorrowPage(PageFactory):
         #column 2
         sheet1.write(row,2,data1[3])
 
+        data2=self.field2.get_text()
+        data2=data2.split("-")
+
+        #column 3
+        sheet1.write(row,3,data2[0])
+
+        #column 4
+        sheet1.write(row,4,data2[1])
+        
+        data=self.field3.get_text()
+        data=data.split(" ")
+
+        #column 5
+        sheet1.write(row,5,data[0])
+
+        #column 6
+        sheet1.write(row,6,data[2])
+
+        #column 7
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",14)
+        data=custom_locator.get_text()
+        sheet1.write(row,7,data)
+        
+        #column 8
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",15)
+        data=custom_locator.get_text()
+        sheet1.write(row,8,data)
+
+        #column 9
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",16)
+        data=custom_locator.get_text()
+        sheet1.write(row,9,data)
+
+        #column 10
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",17)
+        data=custom_locator.get_text()
+        sheet1.write(row,10,data)
+
+        #column 11
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",18)
+        data=custom_locator.get_text()
+        sheet1.write(row,11,data)
+
+        #column 12
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",19)
+        data=custom_locator.get_text()
+        sheet1.write(row,12,data)
+
+        #column 13
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",20)
+        data=custom_locator.get_text()
+        sheet1.write(row,13,data)
+
+        #column 14
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",21)
+        data=custom_locator.get_text()
+        sheet1.write(row,14,data)
+
+        #column 15
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",22)
+        data=custom_locator.get_text()
+        sheet1.write(row,15,data)
+
+        #column 16
+        custom_locator=self.createCustomLocator("//table[@cellspacing='0']//tr[@class='trow3']/td[@align='center']/b",3)
+        data=custom_locator.get_text()
+        sheet1.write(row,16,data)
+
+        #column 17
+        custom_locator=self.createCustomLocator("//table[@cellspacing='0']//tr[@class='trow3']/td[@align='center']/b",4)
+        data=custom_locator.get_text()
+        sheet1.write(row,17,data)
+
+        #column 18
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",1)
+        data=custom_locator.get_text()
+        sheet1.write(row,18,data)
+
+        #column 19
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",2)
+        data=custom_locator.get_text()
+        sheet1.write(row,19,data)
+
+        #column 20
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",3)
+        data=custom_locator.get_text()
+        sheet1.write(row,20,data)
+
+        #column 21
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",4)
+        data=custom_locator.get_text()
+        sheet1.write(row,21,data)
+
+        #column 22
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",5)
+        data=custom_locator.get_text()
+        sheet1.write(row,22,data)
+
+        #column 23
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",6)
+        data=custom_locator.get_text()
+        sheet1.write(row,23,data)
+
+        #column 24
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",7)
+        data=custom_locator.get_text()
+        sheet1.write(row,24,data)
+
+        #column 25
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",8)
+        data=custom_locator.get_text()
+        sheet1.write(row,25,data)
+
+        #column 26
+        custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",9)
+        data=custom_locator.get_text()
+        sheet1.write(row,26,data)
+
+
+
+
+
+    def createCustomLocator(self,locator_name,index=1):
+        _locator = ["XPATH"]
+        _locator.append(f"({locator_name})[{index}]")
+        self.locators.update({"custom_locator":[_locator]})
+        self.custom_locator.scroll_to_element()
+        return self.custom_locator
+
+
 
 
 
