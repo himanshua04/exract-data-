@@ -74,29 +74,31 @@ class TomorrowPage(PageFactory):
 
     def goToUrl(self,url):
         self.driver.get(url)
-        if(selenium_helper.is_element_present(self.locators["btn_agree"][0],5)):
+        if(selenium_helper.is_element_present(self.locators["btn_agree"][0],1)):
             self.btn_agree.click_button()
+        self.show_all_matches.scroll_to_element()
         self.show_all_matches.click_button()
 
     def clickOnStats(self,stats_locator,):
         stats_locator.scroll_to_element()
         stats_locator.click_button()
-        if(selenium_helper.is_element_present(self.locators["cross_add"][0],2)):
+        if(selenium_helper.is_element_present(self.locators["cross_add"][0],0)):
             self.cross_add.click_button()
-        if(selenium_helper.is_element_present(self.locators["ad_close"][0],2)):
+        if(selenium_helper.is_element_present(self.locators["ad_close"][0],0)):
             self.ad_close.click_button()
     
-    def startProcessing(self,stats_locator,sheet1):
+    def startProcessing(self,stats_locator,sheet1,tomorrow_url):
 
         number_of_stats=self.btn_stats.get_all_elements()
-        logging.warning(len(number_of_stats))
-        #coustomize locator
-        _locator = ["XPATH"]
-        _locator.append(f"({stats_locator})[5]")
-        self.locators.update({"dynamic_locator":[_locator]})
-        self.clickOnStats(self.dynamic_locator)
-        i=1
-        self.extractDataTomorrow(i,sheet1)
+        for row in range (1,len(number_of_stats)): 
+            #coustomize locator
+            self.goToUrl(tomorrow_url)
+            _locator = ["XPATH"]
+            _locator.append(f"({stats_locator})[{row}]")
+            self.locators.update({"dynamic_locator":[_locator]})
+            self.clickOnStats(self.dynamic_locator)
+            self.extractDataTomorrow(row,sheet1)
+            
     
     def extractDataTomorrow(self,row,sheet1):
         try:
@@ -311,7 +313,7 @@ class TomorrowPage(PageFactory):
             data=custom_locator.get_text()
             sheet1.write(row,28,data)
         except Exception :
-            logging.warning("for row {row} the coulum 28 is not present")
+            logging.warning(f"for row {row} the coulum 28 is not present")
 
         try:
             #column 29
@@ -319,11 +321,11 @@ class TomorrowPage(PageFactory):
             data=custom_locator.get_text()
             sheet1.write(row,29,data)
         except Exception :
-            logging.warning("for row {row} the coulum 29 is not present")
+            logging.warning(f"for row {row} the coulum 29 is not present")
 
         try:
             #column 32
-            data=self.driver.current_url()
+            data=self.driver.current_url
             sheet1.write(row,32,data)
         except Exception :
             logging.warning("for row {row} the coulum 32 is not present")
