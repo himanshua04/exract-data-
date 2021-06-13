@@ -17,7 +17,7 @@ def pytest_report_header(config):
     '''
     To add info to test report header
     '''
-    return "Simplilearn Selenium Project: 1.0"
+    return "Project made by Himanshu Aggarwal"
 
 # Todo: Support multiple browsers at a given time
 def pytest_addoption(parser):
@@ -85,7 +85,7 @@ def setup(request,record_testsuite_property):
     pytest.driver = init_driver(request.config.getoption("browser_name"))
 
     # Updating Suite level information in junit xml
-#    record_testsuite_property("framework","Simplilearn Selenium Project: 1.0")
+#    record_testsuite_property("framework","Project made by Himanshu Aggarwal")
 #    record_testsuite_property("product",pytest.config['product'])
 #    record_testsuite_property("url",pytest.config['url'])
 #    record_testsuite_property("build_name",pytest.config['build_name'])

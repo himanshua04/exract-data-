@@ -7,6 +7,7 @@ import xlwt
 from xlwt import Workbook
 import logging
 from helper import selenium_helper
+row_number=1
 
 
 class TomorrowPage(PageFactory):
@@ -90,245 +91,252 @@ class TomorrowPage(PageFactory):
     def startProcessing(self,stats_locator,sheet1,tomorrow_url):
 
         number_of_stats=self.btn_stats.get_all_elements()
-        for row in range (1,len(number_of_stats)): 
+        loop_run=len(number_of_stats)+1
+        logging.warning(loop_run)
+        for row in range (1,loop_run):
             #coustomize locator
             self.goToUrl(tomorrow_url)
             _locator = ["XPATH"]
             _locator.append(f"({stats_locator})[{row}]")
             self.locators.update({"dynamic_locator":[_locator]})
             self.clickOnStats(self.dynamic_locator)
-            self.extractDataTomorrow(row,sheet1)
+            self.extractDataTomorrow(sheet1)
             
     
-    def extractDataTomorrow(self,row,sheet1):
+    def extractDataTomorrow(self,sheet1):
+        global row_number
+        
         try:
             data1=self.field1.get_text()
-            data1=data1.split(" ")
-    
+            data1=data1.split(" ")  
             #column 0
-            sheet1.write(row,0,row)
+            sheet1.write(row_number,0,row_number)
             #column 1 
-            sheet1.write(row,1,data1[1]+data1[2])
+            sheet1.write(row_number,1,data1[1]+data1[2])
     
             #column 2
-            sheet1.write(row,2,data1[3])
+            sheet1.write(row_number,2,data1[3])
         except Exception :
-            logging.warning("for row {row} the coulum 1 and 2 is not present")
+            logging.warning(f"for row {row_number} the coulum 1 and 2 is not present")
+            return 
 
         try:
             data2=self.field2.get_text()
-            data2=data2.split("-")
+            data2=data2.split(" - ")
 
             #column 3
-            sheet1.write(row,3,data2[0])
+            sheet1.write(row_number,3,data2[0])
 
             #column 4
-            sheet1.write(row,4,data2[1])
+            sheet1.write(row_number,4,data2[1])
         except Exception :
-            logging.warning("for row {row} the coulum 3 and 4 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 3 and 4 is not present")
         
         try:
             data=self.field3.get_text()
-            data=data.split(" ")
+            data=data.split(" vs ")
 
             #column 5
-            sheet1.write(row,5,data[0])
+            sheet1.write(row_number,5,data[0])
 
             #column 6
-            sheet1.write(row,6,data[2])
+            sheet1.write(row_number,6,data[1])
         except Exception :
-            logging.warning("for row {row} the coulum 5 and 6 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 5 and 6 is not present")
 
         
         try:
             #column 7
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",14)
+            custom_locator=self.createCustomLocator("//td[text()='Over 1.5 goals']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,7,data)
+            sheet1.write(row_number,7,data)
         except Exception :
-            logging.warning("for row {row} the coulum 7 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 7 is not present")
         
         try:
             #column 8
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",15)
+            custom_locator=self.createCustomLocator("//td[text()='Over 2.5 goals']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,8,data)
+            sheet1.write(row_number,8,data)
         except Exception :
-            logging.warning("for row {row} the coulum 8 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 8 is not present")
 
         try:
             #column 9
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",16)
+            custom_locator=self.createCustomLocator("//td[text()='Over 3.5 goals']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,9,data)
+            sheet1.write(row_number,9,data)
         except Exception :
-            logging.warning("for row {row} the coulum 9 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 9 is not present")
 
         try:
             #column 10
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",17)
+            custom_locator=self.createCustomLocator("//td[text()='Over 4.5 goals']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,10,data)
+            sheet1.write(row_number,10,data)
         except Exception :
-            logging.warning("for row {row} the coulum 10 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 10 is not present")
 
         try:
             #column 11
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",18)
+            custom_locator=self.createCustomLocator("//td[text()='Over 5.5 goals']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,11,data)
+            sheet1.write(row_number,11,data)
         except Exception :
-            logging.warning("for row {row} the coulum 11 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 11 is not present")
 
         try:
             #column 12
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",19)
+            custom_locator=self.createCustomLocator("//td[text()='Both teams scored']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,12,data)
+            sheet1.write(row_number,12,data)
         except Exception :
-            logging.warning("for row {row} the coulum 12 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 12 is not present")
 
         try:
             #column 13
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",20)
+            custom_locator=self.createCustomLocator("//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,13,data)
+            sheet1.write(row_number,13,data)
         except Exception :
-            logging.warning("for row {row} the coulum 13 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 13 is not present")
         
         try:
             #column 14
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",21)
+            custom_locator=self.createCustomLocator("//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,14,data)
+            sheet1.write(row_number,14,data)
         except Exception :
-            logging.warning("for row {row} the coulum 14 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 14 is not present")
 
         try:
             #column 15
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",22)
+            custom_locator=self.createCustomLocator("//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,15,data)
+            sheet1.write(row_number,15,data)
         except Exception :
-            logging.warning("for row {row} the coulum 15 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 15 is not present")
 
         try:
             #column 16
             custom_locator=self.createCustomLocator("//table[@cellspacing='0']//tr[@class='trow3']/td[@align='center']/b",3)
             data=custom_locator.get_text()
-            sheet1.write(row,16,data)
+            sheet1.write(row_number,16,data)
         except Exception :
-            logging.warning("for row {row} the coulum 16 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 16 is not present")
 
         try:
             #column 17
             custom_locator=self.createCustomLocator("//table[@cellspacing='0']//tr[@class='trow3']/td[@align='center']/b",4)
             data=custom_locator.get_text()
-            sheet1.write(row,17,data)
+            sheet1.write(row_number,17,data)
         except Exception :
-            logging.warning("for row {row} the coulum 17 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 17 is not present")
 
         try:
             #column 18
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",1)
+            custom_locator=self.createCustomLocator("//td[text()='Avg Goals For']/parent::tr/td/font[@style='font-size:14px;']",1)
             data=custom_locator.get_text()
-            sheet1.write(row,18,data)
+            sheet1.write(row_number,18,data)
         except Exception :
-            logging.warning("for row {row} the coulum 18 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 18 is not present")
 
         try:
             #column 19
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",2)
+            custom_locator=self.createCustomLocator("//td[text()='Avg Goals For']/parent::tr/td/font[@style='font-size:14px;']",2)
             data=custom_locator.get_text()
-            sheet1.write(row,19,data)
+            sheet1.write(row_number,19,data)
         except Exception :
-            logging.warning("for row {row} the coulum 19 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 19 is not present")
 
         try:
             #column 20
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",3)
+            custom_locator=self.createCustomLocator("//td[text()='Avg Total Goals (GF+GA)']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,20,data)
+            sheet1.write(row_number,20,data)
         except Exception :
-            logging.warning("for row {row} the coulum 20 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 20 is not present")
 
         try:
             #column 21
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",4)
+            custom_locator=self.createCustomLocator("//td[text()='Scoring rate']/parent::tr/td/font[@style='font-size:14px;']",1)
             data=custom_locator.get_text()
-            sheet1.write(row,21,data)
+            sheet1.write(row_number,21,data)
         except Exception :
-            logging.warning("for row {row} the coulum 21 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 21 is not present")
 
         try:
             #column 22
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",5)
+            custom_locator=self.createCustomLocator("//td[text()='Scoring rate']/parent::tr/td/font[@style='font-size:14px;']",2)
             data=custom_locator.get_text()
-            sheet1.write(row,22,data)
+            sheet1.write(row_number,22,data)
         except Exception :
-            logging.warning("for row {row} the coulum 22 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 22 is not present")
 
         try:
             #column 23
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",6)
+            custom_locator=self.createCustomLocator("//td[text()='Clean Sheets']/parent::tr/td/font[@style='font-size:14px;']",1)
             data=custom_locator.get_text()
-            sheet1.write(row,23,data)
+            sheet1.write(row_number,23,data)
         except Exception :
-            logging.warning("for row {row} the coulum 23 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 23 is not present")
 
         try:
             #column 24
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",7)
+            custom_locator=self.createCustomLocator("//td[text()='Clean Sheets']/parent::tr/td/font[@style='font-size:14px;']",2)
             data=custom_locator.get_text()
-            sheet1.write(row,24,data)
+            sheet1.write(row_number,24,data)
         except Exception :
-            logging.warning("for row {row} the coulum 24 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 24 is not present")
         
         try:
             #column 25
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",8)
+            custom_locator=self.createCustomLocator("//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;']",1)
             data=custom_locator.get_text()
-            sheet1.write(row,25,data)
+            sheet1.write(row_number,25,data)
         except Exception :
-            logging.warning("for row {row} the coulum 25 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 25 is not present")
 
         try:
             #column 26
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",9)
+            custom_locator=self.createCustomLocator("//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;']",2)
             data=custom_locator.get_text()
-            sheet1.write(row,26,data)
+            sheet1.write(row_number,26,data)
         except Exception :
-            logging.warning("for row {row} the coulum 26 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 26 is not present")
 
         try:
             #column 27
-            data=self.field4.get_text()
-            sheet1.write(row,27,data)
+            custom_locator=self.createCustomLocator("//font[text()='Total goals averages']/parent::td/parent::tr/parent::tbody/tr[@class='trow3']/td/font[@color='#555555']",2)
+            data=custom_locator.get_text()
+            sheet1.write(row_number,27,data)
         except Exception :
-            logging.warning("for row {row} the coulum 27 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 27 is not present")
 
         try:
             #column 28
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",26)
+            custom_locator=self.createCustomLocator("//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,28,data)
+            sheet1.write(row_number,28,data)
         except Exception :
-            logging.warning(f"for row {row} the coulum 28 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 28 is not present")
 
         try:
             #column 29
-            custom_locator=self.createCustomLocator("//font[@style='font-size:14px;']",27)
+            custom_locator=self.createCustomLocator("//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;']")
             data=custom_locator.get_text()
-            sheet1.write(row,29,data)
+            sheet1.write(row_number,29,data)
         except Exception :
-            logging.warning(f"for row {row} the coulum 29 is not present")
+            logging.warning(f"for row_number {row_number} the coulum 29 is not present")
 
         try:
             #column 32
             data=self.driver.current_url
-            sheet1.write(row,32,data)
+            sheet1.write(row_number,32,data)
         except Exception :
-            logging.warning("for row {row} the coulum 32 is not present")
+            logging.warning("for row_number {row_number} the coulum 32 is not present")
+        
+        row_number=row_number+1
         
 
 
