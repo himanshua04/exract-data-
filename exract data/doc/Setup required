@@ -23,6 +23,21 @@ Verifying Python is installed or not
 1 . Go to Command prompt										
 2 . Type command python --version : This command gives python version installed in your system .
 
+
+#######
+set the variable path 
+go to c drive and then python/script copy the path 
+go to path variable and set the copy path 
+
+#####
+pip install pytest
+pip install python-interface
+pip install selenium
+pip install webdriver-manager
+pip install Appium-Python-Client
+pip install xlwt
+
+
 ######
 2) Installing pytest
 
