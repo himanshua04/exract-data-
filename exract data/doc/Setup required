@@ -1,3 +1,8 @@
+# to run the file
+1)go to exract data folder and open cmd there
+2) enter the command pytest test\test_tomorrow.py
+3) hit enter
+
 1) required Python
 
 # Steps to install Python					

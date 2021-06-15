@@ -32,12 +32,7 @@ class TestTomorrow():
             self.pg_tomorrow.clickOnStats(self.pg_tomorrow.btn_stats)
             
             self.pg_tomorrow.goToUrl(testdata['tomorrow_url'])
-            self.pg_tomorrow.startProcessing("//a[@class='myButton']",sheet1,testdata['tomorrow_url'])
-            
-
-
-        
-            
+            self.pg_tomorrow.startProcessing("//a[@class='myButton']",sheet1,testdata['tomorrow_url'])    
            
             self.pg_tomorrow.saveExcelFile(wb)
 
