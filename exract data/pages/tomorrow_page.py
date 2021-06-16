@@ -4,6 +4,7 @@ import time
 from datetime import datetime, timedelta
 import os
 import xlwt
+import xlrd
 from xlwt import Workbook
 import logging
 from helper import selenium_helper
@@ -351,6 +352,80 @@ class TomorrowPage(PageFactory):
             self.custom_locator.scroll_to_element()
         return self.custom_locator
 
+    def goToYesterdayUrl(self,url):
+        self.driver.get(url)
+        if(selenium_helper.is_element_present(self.locators["btn_agree"][0],5)):
+            self.btn_agree.click_button()
+        
+        
+
+    def readExcelFile(self):
+        # Get today's date
+        presentday = datetime.now() # or presentday = datetime.today()
+
+        # Get Yesterday
+        yesterday = presentday - timedelta(1)
+
+        # Get Tomorrow
+        
+        file_name=yesterday.strftime('%d-%m-%Y')
+        #os.chdir(cwd)
+        original_path=os.getcwd()
+        new_path="test/excel sheet/"
+        try:
+            wb = xlrd.open_workbook(new_path+file_name+'.xls')
+            sheet = wb.sheet_by_index(0)
+    
+            # For row 0 and column 0
+            self.insertValue(sheet)
+            wb.save()
+            
+        except Exception :
+            logging.warning("no file found")
+    
+    def insertValue(self,sheet):
+        all_team_name=self.yesterday_team_name.get_all_elements()
+        logging.warning(len(all_team_name))
+        #for i in range (1,len(all_team_name)+1):
+        for i in range (1,8):
+            try:
+                
+                custom_locator=self.createCustomLocator("//td[@class='steam']",i)
+                custom_locator.scroll_to_element()
+                home_team_name=custom_locator.get_text()
+                custom_locator=self.createCustomLocator("//td[@class='steam']/parent::tr/td/b",i)
+                home_team_score=custom_locator.get_text()
+                i=i+1
+                custom_locator=self.createCustomLocator("//td[@class='steam']",i)
+                custom_locator.scroll_to_element()
+                away_team_name=custom_locator.get_text()
+                custom_locator=self.createCustomLocator("//td[@class='steam']/parent::tr/td/b",i)
+                away_team_score=custom_locator.get_text()
+                row=self.matching(home_team_name,away_team_name,sheet)
+                if(row>-1):
+                    sheet.write(row,30,home_team_score)
+                    sheet.write(row,30,away_team_score)
+
+
+
+            except Exception :
+                logging.warning("data missing")
+
+    def matching(self,home_team_name,away_team_name,sheet):
+        row=1
+        column=5
+        while (sheet.cell_value(row,column )!=""):
+            row=row+1
+            if(sheet.cell_value(row,column )==home_team_name and sheet.cell_value(row,column+1 )==away_team_name):
+                logging.warning(row)
+                return row
+
+        return -1
+        
+        
+
+
+        
 
 
 

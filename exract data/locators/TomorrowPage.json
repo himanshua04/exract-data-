@@ -57,5 +57,11 @@
             "XAPTH",
             "(//table[@width='99%']//tr[@class='trow3']//td[@align='center']/font[@color='#555555'])[3]"
         ]
+    ],
+    "yesterday_team_name":[
+        [
+            "XPATH",
+            "//td[@class='steam']"
+        ]
     ]
 }

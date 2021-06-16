@@ -5,7 +5,8 @@ import logging
 import json
 import os
 import sys
-import platform
+from selenium import webdriver
+
 
 sys.path[0] = os.path.dirname(
     os.path.dirname(
@@ -105,7 +106,10 @@ def setup(request,record_testsuite_property):
 
 def init_driver(browser_name):
     logging.info(f'creating driver for provided browser  - {browser_name}')
-    return driver_manager.driver_manager_factory(browser_name).create_driver()
+    driver = webdriver.Chrome(executable_path='./drivers/chromedriver.exe')
+    driver.maximize_window()
+    return driver
+    #return driver_manager.driver_manager_factory(browser_name).create_driver()
 
 def init_logger():
     
