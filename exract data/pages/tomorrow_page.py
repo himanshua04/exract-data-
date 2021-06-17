@@ -5,10 +5,11 @@ from datetime import datetime, timedelta
 import os
 import xlwt
 import xlrd
-from xlwt import Workbook
+from xlutils.copy import copy
 import logging
 from helper import selenium_helper
 row_number=1
+from xlrd import open_workbook
 
 
 class TomorrowPage(PageFactory):
@@ -365,62 +366,83 @@ class TomorrowPage(PageFactory):
 
         # Get Yesterday
         yesterday = presentday - timedelta(1)
-
-        # Get Tomorrow
-        
         file_name=yesterday.strftime('%d-%m-%Y')
-        #os.chdir(cwd)
+        
         original_path=os.getcwd()
         new_path="test/excel sheet/"
         try:
             wb = xlrd.open_workbook(new_path+file_name+'.xls')
+            wbwrite=copy(wb)
             sheet = wb.sheet_by_index(0)
-    
+
+            #os.chdir(new_path)
+
+            x1 = wbwrite.get_sheet(0)
+
+
             # For row 0 and column 0
-            self.insertValue(sheet)
-            wb.save()
+            self.insertValue(sheet,x1)
+            os.chdir(new_path)
+            os.remove(file_name+'.xls')
+            wbwrite.save(file_name+'.xls')
+        
             
         except Exception :
             logging.warning("no file found")
     
-    def insertValue(self,sheet):
-        all_team_name=self.yesterday_team_name.get_all_elements()
-        logging.warning(len(all_team_name))
-        #for i in range (1,len(all_team_name)+1):
-        for i in range (1,8):
-            try:
-                
-                custom_locator=self.createCustomLocator("//td[@class='steam']",i)
-                custom_locator.scroll_to_element()
-                home_team_name=custom_locator.get_text()
-                custom_locator=self.createCustomLocator("//td[@class='steam']/parent::tr/td/b",i)
-                home_team_score=custom_locator.get_text()
-                i=i+1
-                custom_locator=self.createCustomLocator("//td[@class='steam']",i)
-                custom_locator.scroll_to_element()
-                away_team_name=custom_locator.get_text()
-                custom_locator=self.createCustomLocator("//td[@class='steam']/parent::tr/td/b",i)
-                away_team_score=custom_locator.get_text()
-                row=self.matching(home_team_name,away_team_name,sheet)
-                if(row>-1):
-                    sheet.write(row,30,home_team_score)
-                    sheet.write(row,30,away_team_score)
-
-
-
-            except Exception :
-                logging.warning("data missing")
+    def insertValue(self,sheet,x1):
+        
+            all_team_name=self.yesterday_team_name.get_all_elements()
+            logging.warning(len(all_team_name))
+            #for i in range (1,len(all_team_name)+1):
+            i=1
+            while (i <len(all_team_name)):
+                flag=0
+                try:
+                    custom_locator=self.createCustomLocator("//td[@class='steam']",i)
+                    custom_locator.scroll_to_element()
+                    home_team_name=custom_locator.get_text()
+                    custom_locator=self.createCustomLocator("//td[@class='steam']/parent::tr/td/b",i)
+                    home_team_score=custom_locator.get_text()
+                    i=i+1
+                except Exception :
+                    logging.warning("data missing for home team ")
+                    i=i+1
+                    flag=1
+                try:
+                    if(flag==1):
+                        i=i+1
+                        continue
+                    else:
+                        custom_locator=self.createCustomLocator("//td[@class='steam']",i)
+                        custom_locator.scroll_to_element()
+                        away_team_name=custom_locator.get_text()
+                        custom_locator=self.createCustomLocator("//td[@class='steam']/parent::tr/td/b",i)
+                        away_team_score=custom_locator.get_text()
+                        row=self.matching(home_team_name,away_team_name,sheet)
+                        i=i+1
+                        if(row>-1):
+                            x1.write(row,30,home_team_score)
+                            x1.write(row,31,away_team_score)
+                except Exception :
+                    logging.warning("data missing for away team")
+                    i=i+1
 
     def matching(self,home_team_name,away_team_name,sheet):
-        row=1
+        
         column=5
-        while (sheet.cell_value(row,column )!=""):
-            row=row+1
-            if(sheet.cell_value(row,column )==home_team_name and sheet.cell_value(row,column+1 )==away_team_name):
-                logging.warning(row)
-                return row
+        try:
+            size=sheet.nrows
+            for row in range (1,size):
+                if( (sheet.cell_value(row,column ) in home_team_name and sheet.cell_value(row,column+1 ) in away_team_name) or ( home_team_name in sheet.cell_value(row,column ) and  away_team_name in sheet.cell_value(row,column+1 ) ) ):
+                    logging.warning(row)
+                    return row
 
-        return -1
+
+
+            return -1
+        except Exception :
+            logging.warning("error in reading from file")
         
         
 

@@ -1,11 +1,10 @@
-2021-06-16 21:42:28,298 :INFO : setup : creating driver for provided browser  - chrome
-2021-06-16 21:42:34,809 :WARNING : setup : 128
-2021-06-16 21:42:41,124 :WARNING : setup : data missing
-2021-06-16 21:42:41,649 :WARNING : setup : data missing
-2021-06-16 21:42:42,129 :WARNING : setup : data missing
-2021-06-16 21:42:42,537 :WARNING : setup : data missing
-2021-06-16 21:42:42,998 :WARNING : setup : data missing
-2021-06-16 21:42:43,456 :WARNING : setup : data missing
-2021-06-16 21:42:43,900 :WARNING : setup : 2
-2021-06-16 21:42:43,901 :WARNING : setup : data missing
-2021-06-16 21:42:43,901 :WARNING : setup : no file found
+2021-06-17 17:48:23,664 :INFO : setup : creating driver for provided browser  - chrome
+2021-06-17 17:48:36,264 :ERROR : setup : Message: 
+
+2021-06-17 17:48:36,271 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
+2021-06-17 17:48:36,796 :ERROR : setup : Message: 
+
+2021-06-17 17:48:36,800 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
+2021-06-17 17:48:45,622 :WARNING : urllib3.connectionpool : Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC9AA9FE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1a585ff49d7612993c6cc83daf00fc06/window
+2021-06-17 17:48:47,672 :WARNING : urllib3.connectionpool : Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC9AA9FFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1a585ff49d7612993c6cc83daf00fc06/window
+2021-06-17 17:48:49,726 :WARNING : urllib3.connectionpool : Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC9AC710D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1a585ff49d7612993c6cc83daf00fc06/window

@@ -137,23 +137,23 @@ def init_logger():
 #    with open("config.json",) as f:
 #        return json.load(f)
 
-@pytest.fixture()
-def testdata(shared_datadir,request):
-    '''
-    testdata provides the data for a test
-    the details are fetched based on the caller's (test method) context [provided by request(built-in) fixture]
-
-    .
-    ├── data/
-    │   └── hello.json
-    └── test_hello.py
-
-    the testdata fixture opens the file matching the module name (without 'test_') and 
-    will look for the key name which is the caller (test_method)
-    Note: on the test_method also the 'test_*' will not be considered, since 'test_*' is dedicated to pytest patterns
-
-
-    '''
-    file_name = request.module.__name__[len("test_"):] + ".json"
-    function_name = request.function.__name__[len("test_"):]
-    return json.loads((shared_datadir/file_name).read_text())[function_name]
+#@pytest.fixture()
+#def testdata(shared_datadir,request):
+#    '''
+#    testdata provides the data for a test
+#    the details are fetched based on the caller's (test method) context [provided by request(built-in) fixture]
+#
+#    .
+#    ├── data/
+#    │   └── hello.json
+#    └── test_hello.py
+#
+#    the testdata fixture opens the file matching the module name (without 'test_') and 
+#    will look for the key name which is the caller (test_method)
+#    Note: on the test_method also the 'test_*' will not be considered, since 'test_*' is dedicated to pytest patterns
+#
+#
+#    '''
+#    file_name = request.module.__name__[len("test_"):] + ".json"
+#    function_name = request.function.__name__[len("test_"):]
+#    return json.loads((shared_datadir/file_name).read_text())[function_name]
