@@ -15,6 +15,7 @@ from xlrd import open_workbook
 class TomorrowPage(PageFactory):
 
     def __init__(self,driver):
+        
         # It is necessary to to initialise driver as page class member to implement Page Factory
         self.driver = driver
         self.driver.maximize_window()

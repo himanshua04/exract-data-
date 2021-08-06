@@ -1,10 +1,1685 @@
-2021-06-17 17:48:23,664 :INFO : setup : creating driver for provided browser  - chrome
-2021-06-17 17:48:36,264 :ERROR : setup : Message: 
+2021-06-18 17:34:15,708 :INFO : setup : creating driver for provided browser  - chrome
+2021-06-18 17:34:33,014 :ERROR : setup : Message: 
 
-2021-06-17 17:48:36,271 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
-2021-06-17 17:48:36,796 :ERROR : setup : Message: 
+2021-06-18 17:34:33,019 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
+2021-06-18 17:34:33,555 :ERROR : setup : Message: 
 
-2021-06-17 17:48:36,800 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
-2021-06-17 17:48:45,622 :WARNING : urllib3.connectionpool : Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC9AA9FE20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1a585ff49d7612993c6cc83daf00fc06/window
-2021-06-17 17:48:47,672 :WARNING : urllib3.connectionpool : Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC9AA9FFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1a585ff49d7612993c6cc83daf00fc06/window
-2021-06-17 17:48:49,726 :WARNING : urllib3.connectionpool : Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC9AC710D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1a585ff49d7612993c6cc83daf00fc06/window
+2021-06-18 17:34:33,567 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow#google_vignette is not present
+2021-06-18 17:34:42,078 :ERROR : setup : Message: 
+
+2021-06-18 17:34:42,097 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:34:43,397 :WARNING : setup : 340
+2021-06-18 17:34:55,374 :ERROR : setup : Message: 
+
+2021-06-18 17:34:55,544 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:35:05,807 :ERROR : setup : Message: 
+
+2021-06-18 17:35:05,909 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/leagueview_team.asp?league=euro&team1id=21&team2id=23 is not present
+2021-06-18 17:35:06,466 :ERROR : setup : Message: 
+
+2021-06-18 17:35:06,940 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/leagueview_team.asp?league=euro&team1id=21&team2id=23 is not present
+2021-06-18 17:35:12,173 :WARNING : setup : the locator field1 on url https://www.soccerstats.com/leagueview_team.asp?league=euro&team1id=21&team2id=23 is not present
+2021-06-18 17:35:12,173 :WARNING : setup : for row 1 the coulum 1 and 2 is not present
+2021-06-18 17:35:22,534 :ERROR : setup : Message: 
+
+2021-06-18 17:35:22,545 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:35:28,087 :ERROR : setup : Message: 
+
+2021-06-18 17:35:28,305 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/leagueview_team.asp?league=euro&team1id=22&team2id=24 is not present
+2021-06-18 17:35:28,828 :ERROR : setup : Message: 
+
+2021-06-18 17:35:28,832 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/leagueview_team.asp?league=euro&team1id=22&team2id=24 is not present
+2021-06-18 17:35:34,070 :WARNING : setup : the locator field1 on url https://www.soccerstats.com/leagueview_team.asp?league=euro&team1id=22&team2id=24 is not present
+2021-06-18 17:35:34,071 :WARNING : setup : for row 1 the coulum 1 and 2 is not present
+2021-06-18 17:35:39,224 :ERROR : setup : Message: 
+
+2021-06-18 17:35:39,230 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:35:43,301 :ERROR : setup : Message: 
+
+2021-06-18 17:35:43,309 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/leagueview_team.asp?league=euro&team1id=19&team2id=17 is not present
+2021-06-18 17:35:43,833 :ERROR : setup : Message: 
+
+2021-06-18 17:35:43,838 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/leagueview_team.asp?league=euro&team1id=19&team2id=17 is not present
+2021-06-18 17:35:49,313 :WARNING : setup : the locator field1 on url https://www.soccerstats.com/leagueview_team.asp?league=euro&team1id=19&team2id=17 is not present
+2021-06-18 17:35:49,313 :WARNING : setup : for row 1 the coulum 1 and 2 is not present
+2021-06-18 17:35:53,869 :ERROR : setup : Message: 
+
+2021-06-18 17:35:53,873 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:35:58,613 :ERROR : setup : Message: 
+
+2021-06-18 17:35:59,411 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=257-12-6-2021-cr-belouizdad-paradou-ac is not present
+2021-06-18 17:35:59,955 :ERROR : setup : Message: 
+
+2021-06-18 17:35:59,959 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=257-12-6-2021-cr-belouizdad-paradou-ac is not present
+2021-06-18 17:36:05,457 :ERROR : setup : Message: 
+
+2021-06-18 17:36:05,462 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=257-12-6-2021-cr-belouizdad-paradou-ac is not present
+2021-06-18 17:36:10,635 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=257-12-6-2021-cr-belouizdad-paradou-ac is not present
+2021-06-18 17:36:10,635 :WARNING : setup : for row_number 1 the coulum 28 is not present
+2021-06-18 17:36:11,161 :ERROR : setup : Message: 
+
+2021-06-18 17:36:11,166 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=257-12-6-2021-cr-belouizdad-paradou-ac is not present
+2021-06-18 17:36:18,824 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=257-12-6-2021-cr-belouizdad-paradou-ac is not present
+2021-06-18 17:36:18,824 :WARNING : setup : for row_number 1 the coulum 29 is not present
+2021-06-18 17:36:25,948 :ERROR : setup : Message: 
+
+2021-06-18 17:36:25,954 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:36:30,056 :ERROR : setup : Message: 
+
+2021-06-18 17:36:30,066 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=251-4-10-2021-mc-oran-mc-alger is not present
+2021-06-18 17:36:30,672 :ERROR : setup : Message: 
+
+2021-06-18 17:36:30,733 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=251-4-10-2021-mc-oran-mc-alger is not present
+2021-06-18 17:36:35,942 :ERROR : setup : Message: 
+
+2021-06-18 17:36:35,951 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=251-4-10-2021-mc-oran-mc-alger is not present
+2021-06-18 17:36:41,144 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=251-4-10-2021-mc-oran-mc-alger is not present
+2021-06-18 17:36:41,145 :WARNING : setup : for row_number 2 the coulum 28 is not present
+2021-06-18 17:36:41,669 :ERROR : setup : Message: 
+
+2021-06-18 17:36:41,678 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=251-4-10-2021-mc-oran-mc-alger is not present
+2021-06-18 17:36:46,930 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=251-4-10-2021-mc-oran-mc-alger is not present
+2021-06-18 17:36:46,930 :WARNING : setup : for row_number 2 the coulum 29 is not present
+2021-06-18 17:36:52,256 :ERROR : setup : Message: 
+
+2021-06-18 17:36:52,268 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:36:58,100 :ERROR : setup : Message: 
+
+2021-06-18 17:36:58,112 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=253-13-9-2021-nc-magra-bel-abbes is not present
+2021-06-18 17:36:58,629 :ERROR : setup : Message: 
+
+2021-06-18 17:36:58,638 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=253-13-9-2021-nc-magra-bel-abbes is not present
+2021-06-18 17:37:04,616 :ERROR : setup : Message: 
+
+2021-06-18 17:37:04,620 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=253-13-9-2021-nc-magra-bel-abbes is not present
+2021-06-18 17:37:09,825 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=253-13-9-2021-nc-magra-bel-abbes is not present
+2021-06-18 17:37:09,825 :WARNING : setup : for row_number 3 the coulum 28 is not present
+2021-06-18 17:37:10,349 :ERROR : setup : Message: 
+
+2021-06-18 17:37:10,360 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=253-13-9-2021-nc-magra-bel-abbes is not present
+2021-06-18 17:37:15,774 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=253-13-9-2021-nc-magra-bel-abbes is not present
+2021-06-18 17:37:15,774 :WARNING : setup : for row_number 3 the coulum 29 is not present
+2021-06-18 17:37:21,984 :ERROR : setup : Message: 
+
+2021-06-18 17:37:22,574 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:37:29,192 :ERROR : setup : Message: 
+
+2021-06-18 17:37:29,216 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=252-2-15-2021-tlemcen-olympique-medea is not present
+2021-06-18 17:37:29,740 :ERROR : setup : Message: 
+
+2021-06-18 17:37:29,930 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=252-2-15-2021-tlemcen-olympique-medea is not present
+2021-06-18 17:37:35,496 :ERROR : setup : Message: 
+
+2021-06-18 17:37:35,502 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=252-2-15-2021-tlemcen-olympique-medea is not present
+2021-06-18 17:37:40,711 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=252-2-15-2021-tlemcen-olympique-medea is not present
+2021-06-18 17:37:40,711 :WARNING : setup : for row_number 4 the coulum 28 is not present
+2021-06-18 17:37:41,243 :ERROR : setup : Message: 
+
+2021-06-18 17:37:41,301 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=252-2-15-2021-tlemcen-olympique-medea is not present
+2021-06-18 17:37:46,414 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=252-2-15-2021-tlemcen-olympique-medea is not present
+2021-06-18 17:37:46,414 :WARNING : setup : for row_number 4 the coulum 29 is not present
+2021-06-18 17:37:50,582 :ERROR : setup : Message: 
+
+2021-06-18 17:37:50,587 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:37:54,408 :ERROR : setup : Message: 
+
+2021-06-18 17:37:54,428 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=258-16-18-2021-js-saoura-jsm-skikda is not present
+2021-06-18 17:37:55,094 :ERROR : setup : Message: 
+
+2021-06-18 17:37:55,298 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=258-16-18-2021-js-saoura-jsm-skikda is not present
+2021-06-18 17:38:01,040 :ERROR : setup : Message: 
+
+2021-06-18 17:38:01,047 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=258-16-18-2021-js-saoura-jsm-skikda is not present
+2021-06-18 17:38:06,479 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=258-16-18-2021-js-saoura-jsm-skikda is not present
+2021-06-18 17:38:06,479 :WARNING : setup : for row_number 5 the coulum 28 is not present
+2021-06-18 17:38:06,996 :ERROR : setup : Message: 
+
+2021-06-18 17:38:07,596 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=258-16-18-2021-js-saoura-jsm-skikda is not present
+2021-06-18 17:38:12,768 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=258-16-18-2021-js-saoura-jsm-skikda is not present
+2021-06-18 17:38:12,769 :WARNING : setup : for row_number 5 the coulum 29 is not present
+2021-06-18 17:38:16,817 :ERROR : setup : Message: 
+
+2021-06-18 17:38:16,827 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:38:21,942 :ERROR : setup : Message: 
+
+2021-06-18 17:38:21,948 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=254-17-5-2021-us-biskra-rc-relizane is not present
+2021-06-18 17:38:22,473 :ERROR : setup : Message: 
+
+2021-06-18 17:38:22,479 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=254-17-5-2021-us-biskra-rc-relizane is not present
+2021-06-18 17:38:26,941 :ERROR : setup : Message: 
+
+2021-06-18 17:38:26,946 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=254-17-5-2021-us-biskra-rc-relizane is not present
+2021-06-18 17:38:32,298 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=254-17-5-2021-us-biskra-rc-relizane is not present
+2021-06-18 17:38:32,298 :WARNING : setup : for row_number 6 the coulum 28 is not present
+2021-06-18 17:38:32,825 :ERROR : setup : Message: 
+
+2021-06-18 17:38:32,829 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=254-17-5-2021-us-biskra-rc-relizane is not present
+2021-06-18 17:38:38,720 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria&stats=254-17-5-2021-us-biskra-rc-relizane is not present
+2021-06-18 17:38:38,720 :WARNING : setup : for row_number 6 the coulum 29 is not present
+2021-06-18 17:38:42,669 :ERROR : setup : Message: 
+
+2021-06-18 17:38:42,677 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:38:46,136 :ERROR : setup : Message: 
+
+2021-06-18 17:38:46,147 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:38:46,676 :ERROR : setup : Message: 
+
+2021-06-18 17:38:47,659 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:38:49,797 :ERROR : setup : Message: 
+
+2021-06-18 17:38:49,802 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:38:55,148 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:38:55,148 :WARNING : setup : for row_number 7 the coulum 13 is not present
+2021-06-18 17:38:55,673 :ERROR : setup : Message: 
+
+2021-06-18 17:38:55,677 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:00,952 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:00,952 :WARNING : setup : for row_number 7 the coulum 14 is not present
+2021-06-18 17:39:01,479 :ERROR : setup : Message: 
+
+2021-06-18 17:39:01,483 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:06,711 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:06,711 :WARNING : setup : for row_number 7 the coulum 15 is not present
+2021-06-18 17:39:10,878 :ERROR : setup : Message: 
+
+2021-06-18 17:39:10,889 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:16,120 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:16,120 :WARNING : setup : for row_number 7 the coulum 25 is not present
+2021-06-18 17:39:16,640 :ERROR : setup : Message: 
+
+2021-06-18 17:39:16,645 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:21,869 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:21,869 :WARNING : setup : for row_number 7 the coulum 26 is not present
+2021-06-18 17:39:23,067 :ERROR : setup : Message: 
+
+2021-06-18 17:39:23,071 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:28,303 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:28,304 :WARNING : setup : for row_number 7 the coulum 28 is not present
+2021-06-18 17:39:28,829 :ERROR : setup : Message: 
+
+2021-06-18 17:39:28,833 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:34,023 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=364-18-21-2021-amal-bou-saada-msila is not present
+2021-06-18 17:39:34,023 :WARNING : setup : for row_number 7 the coulum 29 is not present
+2021-06-18 17:39:37,429 :ERROR : setup : Message: 
+
+2021-06-18 17:39:37,487 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:39:42,425 :ERROR : setup : Message: 
+
+2021-06-18 17:39:42,634 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:39:43,156 :ERROR : setup : Message: 
+
+2021-06-18 17:39:43,161 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:39:45,520 :ERROR : setup : Message: 
+
+2021-06-18 17:39:45,533 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:39:50,959 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:39:50,959 :WARNING : setup : for row_number 8 the coulum 13 is not present
+2021-06-18 17:39:51,489 :ERROR : setup : Message: 
+
+2021-06-18 17:39:51,943 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:39:57,444 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:39:57,444 :WARNING : setup : for row_number 8 the coulum 14 is not present
+2021-06-18 17:39:57,971 :ERROR : setup : Message: 
+
+2021-06-18 17:39:57,976 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:40:03,758 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:40:03,758 :WARNING : setup : for row_number 8 the coulum 15 is not present
+2021-06-18 17:40:05,983 :ERROR : setup : Message: 
+
+2021-06-18 17:40:05,987 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:40:11,179 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:40:11,179 :WARNING : setup : for row_number 8 the coulum 25 is not present
+2021-06-18 17:40:11,703 :ERROR : setup : Message: 
+
+2021-06-18 17:40:11,708 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:40:17,084 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:40:17,085 :WARNING : setup : for row_number 8 the coulum 26 is not present
+2021-06-18 17:40:17,784 :ERROR : setup : Message: 
+
+2021-06-18 17:40:17,797 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:40:23,059 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:40:23,059 :WARNING : setup : for row_number 8 the coulum 28 is not present
+2021-06-18 17:40:23,601 :ERROR : setup : Message: 
+
+2021-06-18 17:40:23,606 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:40:29,031 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=374-26-27-2021-arzew-temouchent is not present
+2021-06-18 17:40:29,031 :WARNING : setup : for row_number 8 the coulum 29 is not present
+2021-06-18 17:40:35,724 :ERROR : setup : Message: 
+
+2021-06-18 17:40:35,729 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:40:40,222 :ERROR : setup : Message: 
+
+2021-06-18 17:40:40,237 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:40:40,769 :ERROR : setup : Message: 
+
+2021-06-18 17:40:40,773 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:40:42,625 :ERROR : setup : Message: 
+
+2021-06-18 17:40:42,631 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:40:48,005 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:40:48,005 :WARNING : setup : for row_number 9 the coulum 13 is not present
+2021-06-18 17:40:48,536 :ERROR : setup : Message: 
+
+2021-06-18 17:40:48,542 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:40:53,868 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:40:53,869 :WARNING : setup : for row_number 9 the coulum 14 is not present
+2021-06-18 17:40:54,392 :ERROR : setup : Message: 
+
+2021-06-18 17:40:54,396 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:40:59,600 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:40:59,600 :WARNING : setup : for row_number 9 the coulum 15 is not present
+2021-06-18 17:41:01,734 :ERROR : setup : Message: 
+
+2021-06-18 17:41:01,738 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:41:06,898 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:41:06,898 :WARNING : setup : for row_number 9 the coulum 25 is not present
+2021-06-18 17:41:07,426 :ERROR : setup : Message: 
+
+2021-06-18 17:41:07,430 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:41:12,614 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:41:12,614 :WARNING : setup : for row_number 9 the coulum 26 is not present
+2021-06-18 17:41:13,241 :ERROR : setup : Message: 
+
+2021-06-18 17:41:13,245 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:41:18,440 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:41:18,441 :WARNING : setup : for row_number 9 the coulum 28 is not present
+2021-06-18 17:41:18,967 :ERROR : setup : Message: 
+
+2021-06-18 17:41:18,972 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:41:24,131 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=362-14-15-2021-cr-b%E9ni-thour-el-harrach is not present
+2021-06-18 17:41:24,131 :WARNING : setup : for row_number 9 the coulum 29 is not present
+2021-06-18 17:41:27,388 :ERROR : setup : Message: 
+
+2021-06-18 17:41:27,393 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:41:32,388 :ERROR : setup : Message: 
+
+2021-06-18 17:41:32,397 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:41:32,921 :ERROR : setup : Message: 
+
+2021-06-18 17:41:32,925 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:41:34,550 :ERROR : setup : Message: 
+
+2021-06-18 17:41:36,183 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:41:41,357 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:41:41,358 :WARNING : setup : for row_number 10 the coulum 13 is not present
+2021-06-18 17:41:41,883 :ERROR : setup : Message: 
+
+2021-06-18 17:41:41,887 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:41:47,166 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:41:47,167 :WARNING : setup : for row_number 10 the coulum 14 is not present
+2021-06-18 17:41:47,692 :ERROR : setup : Message: 
+
+2021-06-18 17:41:47,696 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:41:52,868 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:41:52,868 :WARNING : setup : for row_number 10 the coulum 15 is not present
+2021-06-18 17:41:55,028 :ERROR : setup : Message: 
+
+2021-06-18 17:41:55,032 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:42:00,211 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:42:00,211 :WARNING : setup : for row_number 10 the coulum 25 is not present
+2021-06-18 17:42:00,745 :ERROR : setup : Message: 
+
+2021-06-18 17:42:00,753 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:42:05,960 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:42:05,961 :WARNING : setup : for row_number 10 the coulum 26 is not present
+2021-06-18 17:42:06,593 :ERROR : setup : Message: 
+
+2021-06-18 17:42:06,597 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:42:11,790 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:42:11,792 :WARNING : setup : for row_number 10 the coulum 28 is not present
+2021-06-18 17:42:12,312 :ERROR : setup : Message: 
+
+2021-06-18 17:42:12,317 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:42:17,602 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=367-1-5-2021-hb-chelghoum-l.-annaba is not present
+2021-06-18 17:42:17,603 :WARNING : setup : for row_number 10 the coulum 29 is not present
+2021-06-18 17:42:21,962 :ERROR : setup : Message: 
+
+2021-06-18 17:42:21,966 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:42:29,627 :ERROR : setup : Message: 
+
+2021-06-18 17:42:29,666 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:42:30,187 :ERROR : setup : Message: 
+
+2021-06-18 17:42:30,196 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:42:32,181 :ERROR : setup : Message: 
+
+2021-06-18 17:42:32,191 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:42:37,433 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:42:37,433 :WARNING : setup : for row_number 11 the coulum 13 is not present
+2021-06-18 17:42:37,962 :ERROR : setup : Message: 
+
+2021-06-18 17:42:37,967 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:42:42,990 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:42:42,990 :WARNING : setup : for row_number 11 the coulum 14 is not present
+2021-06-18 17:42:43,519 :ERROR : setup : Message: 
+
+2021-06-18 17:42:43,524 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:42:48,743 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:42:48,744 :WARNING : setup : for row_number 11 the coulum 15 is not present
+2021-06-18 17:42:52,272 :ERROR : setup : Message: 
+
+2021-06-18 17:42:52,278 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:42:57,291 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:42:57,291 :WARNING : setup : for row_number 11 the coulum 25 is not present
+2021-06-18 17:42:57,812 :ERROR : setup : Message: 
+
+2021-06-18 17:42:57,817 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:43:03,023 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:43:03,024 :WARNING : setup : for row_number 11 the coulum 26 is not present
+2021-06-18 17:43:03,659 :ERROR : setup : Message: 
+
+2021-06-18 17:43:03,664 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:43:08,883 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:43:08,883 :WARNING : setup : for row_number 11 the coulum 28 is not present
+2021-06-18 17:43:09,406 :ERROR : setup : Message: 
+
+2021-06-18 17:43:09,416 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:43:14,608 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=376-30-31-2021-irb-el-kerma-asm-oran is not present
+2021-06-18 17:43:14,608 :WARNING : setup : for row_number 11 the coulum 29 is not present
+2021-06-18 17:43:18,289 :ERROR : setup : Message: 
+
+2021-06-18 17:43:18,293 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:43:23,676 :ERROR : setup : Message: 
+
+2021-06-18 17:43:23,685 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:24,204 :ERROR : setup : Message: 
+
+2021-06-18 17:43:24,225 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:25,765 :ERROR : setup : Message: 
+
+2021-06-18 17:43:25,773 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:31,594 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:31,594 :WARNING : setup : for row_number 12 the coulum 13 is not present
+2021-06-18 17:43:32,128 :ERROR : setup : Message: 
+
+2021-06-18 17:43:32,133 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:37,362 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:37,362 :WARNING : setup : for row_number 12 the coulum 14 is not present
+2021-06-18 17:43:37,892 :ERROR : setup : Message: 
+
+2021-06-18 17:43:37,896 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:43,085 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:43,086 :WARNING : setup : for row_number 12 the coulum 15 is not present
+2021-06-18 17:43:45,312 :ERROR : setup : Message: 
+
+2021-06-18 17:43:45,320 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:50,535 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:50,535 :WARNING : setup : for row_number 12 the coulum 25 is not present
+2021-06-18 17:43:51,064 :ERROR : setup : Message: 
+
+2021-06-18 17:43:51,068 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:56,260 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:43:56,261 :WARNING : setup : for row_number 12 the coulum 26 is not present
+2021-06-18 17:43:56,891 :ERROR : setup : Message: 
+
+2021-06-18 17:43:56,895 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:44:02,053 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:44:02,053 :WARNING : setup : for row_number 12 the coulum 28 is not present
+2021-06-18 17:44:02,568 :ERROR : setup : Message: 
+
+2021-06-18 17:44:02,580 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:44:07,875 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=365-20-23-2021-jsm-bejaia-ben-aknoun is not present
+2021-06-18 17:44:07,875 :WARNING : setup : for row_number 12 the coulum 29 is not present
+2021-06-18 17:44:12,546 :ERROR : setup : Message: 
+
+2021-06-18 17:44:12,550 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:44:16,786 :ERROR : setup : Message: 
+
+2021-06-18 17:44:16,796 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:17,317 :ERROR : setup : Message: 
+
+2021-06-18 17:44:17,323 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:18,744 :ERROR : setup : Message: 
+
+2021-06-18 17:44:18,748 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:23,929 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:23,929 :WARNING : setup : for row_number 13 the coulum 13 is not present
+2021-06-18 17:44:24,464 :ERROR : setup : Message: 
+
+2021-06-18 17:44:24,470 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:29,946 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:29,946 :WARNING : setup : for row_number 13 the coulum 14 is not present
+2021-06-18 17:44:30,467 :ERROR : setup : Message: 
+
+2021-06-18 17:44:30,472 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:35,665 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:35,665 :WARNING : setup : for row_number 13 the coulum 15 is not present
+2021-06-18 17:44:38,487 :ERROR : setup : Message: 
+
+2021-06-18 17:44:38,492 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:43,689 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:43,689 :WARNING : setup : for row_number 13 the coulum 25 is not present
+2021-06-18 17:44:44,217 :ERROR : setup : Message: 
+
+2021-06-18 17:44:44,227 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:49,397 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:49,397 :WARNING : setup : for row_number 13 the coulum 26 is not present
+2021-06-18 17:44:50,077 :ERROR : setup : Message: 
+
+2021-06-18 17:44:50,082 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:55,559 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:44:55,559 :WARNING : setup : for row_number 13 the coulum 28 is not present
+2021-06-18 17:44:56,086 :ERROR : setup : Message: 
+
+2021-06-18 17:44:56,093 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:45:01,299 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=377-36-33-2021-kh%E9mis-m%E9lina-remchi is not present
+2021-06-18 17:45:01,299 :WARNING : setup : for row_number 13 the coulum 29 is not present
+2021-06-18 17:45:05,854 :ERROR : setup : Message: 
+
+2021-06-18 17:45:05,858 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:45:10,568 :ERROR : setup : Message: 
+
+2021-06-18 17:45:10,608 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:11,126 :ERROR : setup : Message: 
+
+2021-06-18 17:45:11,130 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:12,565 :ERROR : setup : Message: 
+
+2021-06-18 17:45:12,569 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:17,659 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:17,660 :WARNING : setup : for row_number 14 the coulum 13 is not present
+2021-06-18 17:45:18,181 :ERROR : setup : Message: 
+
+2021-06-18 17:45:18,185 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:23,455 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:23,455 :WARNING : setup : for row_number 14 the coulum 14 is not present
+2021-06-18 17:45:23,987 :ERROR : setup : Message: 
+
+2021-06-18 17:45:23,990 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:29,168 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:29,168 :WARNING : setup : for row_number 14 the coulum 15 is not present
+2021-06-18 17:45:31,188 :ERROR : setup : Message: 
+
+2021-06-18 17:45:31,193 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:36,457 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:36,458 :WARNING : setup : for row_number 14 the coulum 25 is not present
+2021-06-18 17:45:36,985 :ERROR : setup : Message: 
+
+2021-06-18 17:45:36,992 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:42,173 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:42,174 :WARNING : setup : for row_number 14 the coulum 26 is not present
+2021-06-18 17:45:42,797 :ERROR : setup : Message: 
+
+2021-06-18 17:45:42,801 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:48,126 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:48,126 :WARNING : setup : for row_number 14 the coulum 28 is not present
+2021-06-18 17:45:48,671 :ERROR : setup : Message: 
+
+2021-06-18 17:45:49,338 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:54,733 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=372-10-12-2021-khenchela-tadjenanet is not present
+2021-06-18 17:45:54,733 :WARNING : setup : for row_number 14 the coulum 29 is not present
+2021-06-18 17:45:59,533 :ERROR : setup : Message: 
+
+2021-06-18 17:45:59,542 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:46:04,935 :ERROR : setup : Message: 
+
+2021-06-18 17:46:04,951 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:05,480 :ERROR : setup : Message: 
+
+2021-06-18 17:46:05,485 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:07,107 :ERROR : setup : Message: 
+
+2021-06-18 17:46:07,111 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:12,457 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:12,457 :WARNING : setup : for row_number 15 the coulum 13 is not present
+2021-06-18 17:46:12,987 :ERROR : setup : Message: 
+
+2021-06-18 17:46:13,000 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:18,309 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:18,309 :WARNING : setup : for row_number 15 the coulum 14 is not present
+2021-06-18 17:46:18,835 :ERROR : setup : Message: 
+
+2021-06-18 17:46:18,840 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:23,984 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:23,984 :WARNING : setup : for row_number 15 the coulum 15 is not present
+2021-06-18 17:46:27,591 :ERROR : setup : Message: 
+
+2021-06-18 17:46:27,633 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:32,982 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:32,982 :WARNING : setup : for row_number 15 the coulum 25 is not present
+2021-06-18 17:46:33,515 :ERROR : setup : Message: 
+
+2021-06-18 17:46:33,521 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:38,562 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:38,563 :WARNING : setup : for row_number 15 the coulum 26 is not present
+2021-06-18 17:46:39,200 :ERROR : setup : Message: 
+
+2021-06-18 17:46:39,205 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:44,638 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:44,638 :WARNING : setup : for row_number 15 the coulum 28 is not present
+2021-06-18 17:46:45,162 :ERROR : setup : Message: 
+
+2021-06-18 17:46:45,166 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:50,469 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=361-13-17-2021-lakhdaria-usm-blida is not present
+2021-06-18 17:46:50,469 :WARNING : setup : for row_number 15 the coulum 29 is not present
+2021-06-18 17:46:55,058 :ERROR : setup : Message: 
+
+2021-06-18 17:46:55,065 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:46:59,267 :ERROR : setup : Message: 
+
+2021-06-18 17:46:59,278 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:46:59,812 :ERROR : setup : Message: 
+
+2021-06-18 17:46:59,817 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:01,451 :ERROR : setup : Message: 
+
+2021-06-18 17:47:01,455 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:06,650 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:06,650 :WARNING : setup : for row_number 16 the coulum 13 is not present
+2021-06-18 17:47:07,173 :ERROR : setup : Message: 
+
+2021-06-18 17:47:07,177 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:12,224 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:12,224 :WARNING : setup : for row_number 16 the coulum 14 is not present
+2021-06-18 17:47:12,758 :ERROR : setup : Message: 
+
+2021-06-18 17:47:12,761 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:18,020 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:18,020 :WARNING : setup : for row_number 16 the coulum 15 is not present
+2021-06-18 17:47:19,990 :ERROR : setup : Message: 
+
+2021-06-18 17:47:20,008 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:25,316 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:25,316 :WARNING : setup : for row_number 16 the coulum 25 is not present
+2021-06-18 17:47:25,846 :ERROR : setup : Message: 
+
+2021-06-18 17:47:25,852 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:31,116 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:31,116 :WARNING : setup : for row_number 16 the coulum 26 is not present
+2021-06-18 17:47:31,820 :ERROR : setup : Message: 
+
+2021-06-18 17:47:31,827 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:37,100 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:37,100 :WARNING : setup : for row_number 16 the coulum 28 is not present
+2021-06-18 17:47:37,625 :ERROR : setup : Message: 
+
+2021-06-18 17:47:37,638 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:42,844 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=375-28-35-2021-mc-saida-a%EFn-defla is not present
+2021-06-18 17:47:42,845 :WARNING : setup : for row_number 16 the coulum 29 is not present
+2021-06-18 17:47:47,781 :ERROR : setup : Message: 
+
+2021-06-18 17:47:47,787 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:47:52,627 :ERROR : setup : Message: 
+
+2021-06-18 17:47:52,638 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:47:53,156 :ERROR : setup : Message: 
+
+2021-06-18 17:47:53,181 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:47:54,703 :ERROR : setup : Message: 
+
+2021-06-18 17:47:54,707 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:00,037 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:00,037 :WARNING : setup : for row_number 17 the coulum 13 is not present
+2021-06-18 17:48:00,562 :ERROR : setup : Message: 
+
+2021-06-18 17:48:00,616 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:06,161 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:06,161 :WARNING : setup : for row_number 17 the coulum 14 is not present
+2021-06-18 17:48:06,688 :ERROR : setup : Message: 
+
+2021-06-18 17:48:06,701 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:11,792 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:11,792 :WARNING : setup : for row_number 17 the coulum 15 is not present
+2021-06-18 17:48:13,967 :ERROR : setup : Message: 
+
+2021-06-18 17:48:13,972 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:19,286 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:19,286 :WARNING : setup : for row_number 17 the coulum 25 is not present
+2021-06-18 17:48:19,809 :ERROR : setup : Message: 
+
+2021-06-18 17:48:19,814 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:25,468 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:25,468 :WARNING : setup : for row_number 17 the coulum 26 is not present
+2021-06-18 17:48:26,669 :ERROR : setup : Message: 
+
+2021-06-18 17:48:26,673 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:31,951 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:31,951 :WARNING : setup : for row_number 17 the coulum 28 is not present
+2021-06-18 17:48:32,640 :ERROR : setup : Message: 
+
+2021-06-18 17:48:32,645 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:37,889 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=371-8-11-2021-mo-constantine-el-eulma is not present
+2021-06-18 17:48:37,889 :WARNING : setup : for row_number 17 the coulum 29 is not present
+2021-06-18 17:48:42,627 :ERROR : setup : Message: 
+
+2021-06-18 17:48:42,635 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:48:47,547 :ERROR : setup : Message: 
+
+2021-06-18 17:48:47,555 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:48:48,078 :ERROR : setup : Message: 
+
+2021-06-18 17:48:48,083 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:48:49,532 :ERROR : setup : Message: 
+
+2021-06-18 17:48:49,538 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:48:54,956 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:48:54,956 :WARNING : setup : for row_number 18 the coulum 13 is not present
+2021-06-18 17:48:55,793 :ERROR : setup : Message: 
+
+2021-06-18 17:48:56,086 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:01,524 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:01,524 :WARNING : setup : for row_number 18 the coulum 14 is not present
+2021-06-18 17:49:02,207 :ERROR : setup : Message: 
+
+2021-06-18 17:49:02,241 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:07,619 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:07,619 :WARNING : setup : for row_number 18 the coulum 15 is not present
+2021-06-18 17:49:09,355 :ERROR : setup : Message: 
+
+2021-06-18 17:49:09,360 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:14,631 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:14,631 :WARNING : setup : for row_number 18 the coulum 25 is not present
+2021-06-18 17:49:15,189 :ERROR : setup : Message: 
+
+2021-06-18 17:49:15,194 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:20,592 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:20,592 :WARNING : setup : for row_number 18 the coulum 26 is not present
+2021-06-18 17:49:21,486 :ERROR : setup : Message: 
+
+2021-06-18 17:49:21,515 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:26,911 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:26,911 :WARNING : setup : for row_number 18 the coulum 28 is not present
+2021-06-18 17:49:27,436 :ERROR : setup : Message: 
+
+2021-06-18 17:49:27,440 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:32,663 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=370-6-9-2021-msp-batna-ca-batna is not present
+2021-06-18 17:49:32,663 :WARNING : setup : for row_number 18 the coulum 29 is not present
+2021-06-18 17:49:37,588 :ERROR : setup : Message: 
+
+2021-06-18 17:49:37,593 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:49:43,112 :ERROR : setup : Message: 
+
+2021-06-18 17:49:43,969 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:49:44,508 :ERROR : setup : Message: 
+
+2021-06-18 17:49:44,514 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:49:47,424 :ERROR : setup : Message: 
+
+2021-06-18 17:49:47,428 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:49:52,578 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:49:52,578 :WARNING : setup : for row_number 19 the coulum 13 is not present
+2021-06-18 17:49:53,112 :ERROR : setup : Message: 
+
+2021-06-18 17:49:53,123 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:49:58,397 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:49:58,397 :WARNING : setup : for row_number 19 the coulum 14 is not present
+2021-06-18 17:49:58,935 :ERROR : setup : Message: 
+
+2021-06-18 17:49:58,946 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:50:04,158 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:50:04,158 :WARNING : setup : for row_number 19 the coulum 15 is not present
+2021-06-18 17:50:07,043 :ERROR : setup : Message: 
+
+2021-06-18 17:50:07,047 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:50:12,284 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:50:12,284 :WARNING : setup : for row_number 19 the coulum 25 is not present
+2021-06-18 17:50:12,813 :ERROR : setup : Message: 
+
+2021-06-18 17:50:12,818 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:50:18,140 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:50:18,140 :WARNING : setup : for row_number 19 the coulum 26 is not present
+2021-06-18 17:50:18,875 :ERROR : setup : Message: 
+
+2021-06-18 17:50:18,894 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:50:24,165 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:50:24,165 :WARNING : setup : for row_number 19 the coulum 28 is not present
+2021-06-18 17:50:24,689 :ERROR : setup : Message: 
+
+2021-06-18 17:50:24,701 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:50:29,978 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=378-32-34-2021-oued-rhiou-tiaret is not present
+2021-06-18 17:50:29,978 :WARNING : setup : for row_number 19 the coulum 29 is not present
+2021-06-18 17:50:36,388 :ERROR : setup : Message: 
+
+2021-06-18 17:50:36,391 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:50:42,126 :ERROR : setup : Message: 
+
+2021-06-18 17:50:42,135 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:50:42,657 :ERROR : setup : Message: 
+
+2021-06-18 17:50:42,661 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:50:44,198 :ERROR : setup : Message: 
+
+2021-06-18 17:50:44,215 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:50:50,321 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:50:50,321 :WARNING : setup : for row_number 20 the coulum 13 is not present
+2021-06-18 17:50:50,939 :ERROR : setup : Message: 
+
+2021-06-18 17:50:50,958 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:50:56,319 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:50:56,319 :WARNING : setup : for row_number 20 the coulum 14 is not present
+2021-06-18 17:50:56,849 :ERROR : setup : Message: 
+
+2021-06-18 17:50:56,853 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:51:02,051 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:51:02,051 :WARNING : setup : for row_number 20 the coulum 15 is not present
+2021-06-18 17:51:03,688 :ERROR : setup : Message: 
+
+2021-06-18 17:51:03,694 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:51:08,906 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:51:08,906 :WARNING : setup : for row_number 20 the coulum 25 is not present
+2021-06-18 17:51:09,422 :ERROR : setup : Message: 
+
+2021-06-18 17:51:09,426 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:51:14,610 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:51:14,610 :WARNING : setup : for row_number 20 the coulum 26 is not present
+2021-06-18 17:51:15,247 :ERROR : setup : Message: 
+
+2021-06-18 17:51:15,256 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:51:20,802 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:51:20,802 :WARNING : setup : for row_number 20 the coulum 28 is not present
+2021-06-18 17:51:21,346 :ERROR : setup : Message: 
+
+2021-06-18 17:51:21,353 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:51:26,396 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=373-25-29-2021-oued-sly-ain-ouessar is not present
+2021-06-18 17:51:26,396 :WARNING : setup : for row_number 20 the coulum 29 is not present
+2021-06-18 17:51:31,463 :ERROR : setup : Message: 
+
+2021-06-18 17:51:31,511 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:51:35,541 :ERROR : setup : Message: 
+
+2021-06-18 17:51:35,549 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:51:36,073 :ERROR : setup : Message: 
+
+2021-06-18 17:51:36,077 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:51:37,458 :ERROR : setup : Message: 
+
+2021-06-18 17:51:37,463 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:51:43,541 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:51:43,541 :WARNING : setup : for row_number 21 the coulum 13 is not present
+2021-06-18 17:51:44,110 :ERROR : setup : Message: 
+
+2021-06-18 17:51:44,114 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:51:49,181 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:51:49,181 :WARNING : setup : for row_number 21 the coulum 14 is not present
+2021-06-18 17:51:49,703 :ERROR : setup : Message: 
+
+2021-06-18 17:51:49,707 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:51:54,871 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:51:54,871 :WARNING : setup : for row_number 21 the coulum 15 is not present
+2021-06-18 17:51:56,446 :ERROR : setup : Message: 
+
+2021-06-18 17:51:56,451 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:52:01,647 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:52:01,647 :WARNING : setup : for row_number 21 the coulum 25 is not present
+2021-06-18 17:52:02,172 :ERROR : setup : Message: 
+
+2021-06-18 17:52:02,176 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:52:07,349 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:52:07,350 :WARNING : setup : for row_number 21 the coulum 26 is not present
+2021-06-18 17:52:08,021 :ERROR : setup : Message: 
+
+2021-06-18 17:52:08,054 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:52:14,287 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:52:14,287 :WARNING : setup : for row_number 21 the coulum 28 is not present
+2021-06-18 17:52:14,822 :ERROR : setup : Message: 
+
+2021-06-18 17:52:14,847 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:52:20,161 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=369-4-7-2021-ouled-djellal-khroub is not present
+2021-06-18 17:52:20,161 :WARNING : setup : for row_number 21 the coulum 29 is not present
+2021-06-18 17:52:25,547 :ERROR : setup : Message: 
+
+2021-06-18 17:52:25,577 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:52:30,348 :ERROR : setup : Message: 
+
+2021-06-18 17:52:30,359 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:52:30,883 :ERROR : setup : Message: 
+
+2021-06-18 17:52:30,889 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:52:32,378 :ERROR : setup : Message: 
+
+2021-06-18 17:52:32,382 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:52:37,608 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:52:37,608 :WARNING : setup : for row_number 22 the coulum 13 is not present
+2021-06-18 17:52:38,156 :ERROR : setup : Message: 
+
+2021-06-18 17:52:38,173 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:52:43,539 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:52:43,539 :WARNING : setup : for row_number 22 the coulum 14 is not present
+2021-06-18 17:52:44,060 :ERROR : setup : Message: 
+
+2021-06-18 17:52:44,065 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:52:49,229 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:52:49,229 :WARNING : setup : for row_number 22 the coulum 15 is not present
+2021-06-18 17:52:50,819 :ERROR : setup : Message: 
+
+2021-06-18 17:52:50,822 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:52:55,995 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:52:55,995 :WARNING : setup : for row_number 22 the coulum 25 is not present
+2021-06-18 17:52:56,517 :ERROR : setup : Message: 
+
+2021-06-18 17:52:56,521 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:53:01,688 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:53:01,688 :WARNING : setup : for row_number 22 the coulum 26 is not present
+2021-06-18 17:53:02,328 :ERROR : setup : Message: 
+
+2021-06-18 17:53:02,332 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:53:07,532 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:53:07,532 :WARNING : setup : for row_number 22 the coulum 28 is not present
+2021-06-18 17:53:08,053 :ERROR : setup : Message: 
+
+2021-06-18 17:53:08,058 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:53:13,389 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=363-16-19-2021-rc-arbaa-mo-bejaia is not present
+2021-06-18 17:53:13,389 :WARNING : setup : for row_number 22 the coulum 29 is not present
+2021-06-18 17:53:17,704 :ERROR : setup : Message: 
+
+2021-06-18 17:53:17,708 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:53:24,316 :ERROR : setup : Message: 
+
+2021-06-18 17:53:24,332 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:24,853 :ERROR : setup : Message: 
+
+2021-06-18 17:53:24,858 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:26,360 :ERROR : setup : Message: 
+
+2021-06-18 17:53:26,375 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:31,856 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:31,857 :WARNING : setup : for row_number 23 the coulum 13 is not present
+2021-06-18 17:53:32,423 :ERROR : setup : Message: 
+
+2021-06-18 17:53:32,429 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:37,872 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:37,873 :WARNING : setup : for row_number 23 the coulum 14 is not present
+2021-06-18 17:53:38,399 :ERROR : setup : Message: 
+
+2021-06-18 17:53:38,403 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:43,599 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:43,599 :WARNING : setup : for row_number 23 the coulum 15 is not present
+2021-06-18 17:53:45,596 :ERROR : setup : Message: 
+
+2021-06-18 17:53:45,601 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:51,003 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:51,003 :WARNING : setup : for row_number 23 the coulum 25 is not present
+2021-06-18 17:53:51,526 :ERROR : setup : Message: 
+
+2021-06-18 17:53:51,530 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:56,728 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:53:56,728 :WARNING : setup : for row_number 23 the coulum 26 is not present
+2021-06-18 17:53:57,351 :ERROR : setup : Message: 
+
+2021-06-18 17:53:57,355 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:54:02,749 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:54:02,749 :WARNING : setup : for row_number 23 the coulum 28 is not present
+2021-06-18 17:54:03,306 :ERROR : setup : Message: 
+
+2021-06-18 17:54:03,311 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:54:08,553 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=366-22-24-2021-rc-kouba-wa-boufarik is not present
+2021-06-18 17:54:08,553 :WARNING : setup : for row_number 23 the coulum 29 is not present
+2021-06-18 17:54:12,930 :ERROR : setup : Message: 
+
+2021-06-18 17:54:12,936 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:54:18,983 :ERROR : setup : Message: 
+
+2021-06-18 17:54:18,997 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:19,526 :ERROR : setup : Message: 
+
+2021-06-18 17:54:20,348 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:21,910 :ERROR : setup : Message: 
+
+2021-06-18 17:54:21,915 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:27,560 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:27,560 :WARNING : setup : for row_number 24 the coulum 13 is not present
+2021-06-18 17:54:28,079 :ERROR : setup : Message: 
+
+2021-06-18 17:54:28,083 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:33,268 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:33,268 :WARNING : setup : for row_number 24 the coulum 14 is not present
+2021-06-18 17:54:33,796 :ERROR : setup : Message: 
+
+2021-06-18 17:54:33,806 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:38,994 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:38,995 :WARNING : setup : for row_number 24 the coulum 15 is not present
+2021-06-18 17:54:40,574 :ERROR : setup : Message: 
+
+2021-06-18 17:54:40,580 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:45,754 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:45,754 :WARNING : setup : for row_number 24 the coulum 25 is not present
+2021-06-18 17:54:46,283 :ERROR : setup : Message: 
+
+2021-06-18 17:54:46,286 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:51,483 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:51,483 :WARNING : setup : for row_number 24 the coulum 26 is not present
+2021-06-18 17:54:52,140 :ERROR : setup : Message: 
+
+2021-06-18 17:54:52,144 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:57,329 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:54:57,329 :WARNING : setup : for row_number 24 the coulum 28 is not present
+2021-06-18 17:54:57,857 :ERROR : setup : Message: 
+
+2021-06-18 17:54:57,861 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:55:03,036 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria2&stats=368-2-3-2021-teleghma-us-chaouia is not present
+2021-06-18 17:55:03,036 :WARNING : setup : for row_number 24 the coulum 29 is not present
+2021-06-18 17:55:07,454 :ERROR : setup : Message: 
+
+2021-06-18 17:55:07,470 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:55:12,389 :ERROR : setup : Message: 
+
+2021-06-18 17:55:12,415 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:12,941 :ERROR : setup : Message: 
+
+2021-06-18 17:55:12,945 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:14,373 :ERROR : setup : Message: 
+
+2021-06-18 17:55:14,380 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:19,673 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:19,673 :WARNING : setup : for row_number 25 the coulum 13 is not present
+2021-06-18 17:55:20,267 :ERROR : setup : Message: 
+
+2021-06-18 17:55:20,272 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:25,395 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:25,395 :WARNING : setup : for row_number 25 the coulum 14 is not present
+2021-06-18 17:55:25,920 :ERROR : setup : Message: 
+
+2021-06-18 17:55:25,924 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:31,120 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:31,120 :WARNING : setup : for row_number 25 the coulum 15 is not present
+2021-06-18 17:55:32,900 :ERROR : setup : Message: 
+
+2021-06-18 17:55:32,905 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:38,135 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:38,135 :WARNING : setup : for row_number 25 the coulum 25 is not present
+2021-06-18 17:55:38,664 :ERROR : setup : Message: 
+
+2021-06-18 17:55:38,668 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:43,876 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:43,877 :WARNING : setup : for row_number 25 the coulum 26 is not present
+2021-06-18 17:55:44,508 :ERROR : setup : Message: 
+
+2021-06-18 17:55:44,512 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:49,671 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:49,671 :WARNING : setup : for row_number 25 the coulum 28 is not present
+2021-06-18 17:55:50,201 :ERROR : setup : Message: 
+
+2021-06-18 17:55:50,623 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:55,851 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=257-20-4-2021-belouizdad-u21-paradou-u21 is not present
+2021-06-18 17:55:55,851 :WARNING : setup : for row_number 25 the coulum 29 is not present
+2021-06-18 17:56:00,568 :ERROR : setup : Message: 
+
+2021-06-18 17:56:00,574 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:56:07,680 :ERROR : setup : Message: 
+
+2021-06-18 17:56:09,257 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=254-9-3-2021-biskra-u21-rc-relizane-u21 is not present
+2021-06-18 17:56:09,774 :ERROR : setup : Message: 
+
+2021-06-18 17:56:09,782 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=254-9-3-2021-biskra-u21-rc-relizane-u21 is not present
+2021-06-18 17:56:15,006 :WARNING : setup : the locator field1 on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=254-9-3-2021-biskra-u21-rc-relizane-u21 is not present
+2021-06-18 17:56:15,007 :WARNING : setup : for row 26 the coulum 1 and 2 is not present
+2021-06-18 17:56:20,330 :ERROR : setup : Message: 
+
+2021-06-18 17:56:20,335 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:56:25,802 :ERROR : setup : Message: 
+
+2021-06-18 17:56:26,206 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:26,925 :ERROR : setup : Message: 
+
+2021-06-18 17:56:26,930 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:28,493 :ERROR : setup : Message: 
+
+2021-06-18 17:56:28,498 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:34,809 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:34,809 :WARNING : setup : for row_number 26 the coulum 13 is not present
+2021-06-18 17:56:35,346 :ERROR : setup : Message: 
+
+2021-06-18 17:56:35,355 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:40,591 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:40,591 :WARNING : setup : for row_number 26 the coulum 14 is not present
+2021-06-18 17:56:41,111 :ERROR : setup : Message: 
+
+2021-06-18 17:56:41,114 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:46,287 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:46,287 :WARNING : setup : for row_number 26 the coulum 15 is not present
+2021-06-18 17:56:47,904 :ERROR : setup : Message: 
+
+2021-06-18 17:56:47,911 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:53,062 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:53,063 :WARNING : setup : for row_number 26 the coulum 25 is not present
+2021-06-18 17:56:53,588 :ERROR : setup : Message: 
+
+2021-06-18 17:56:53,595 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:58,768 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:56:58,768 :WARNING : setup : for row_number 26 the coulum 26 is not present
+2021-06-18 17:56:59,404 :ERROR : setup : Message: 
+
+2021-06-18 17:56:59,411 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:57:04,590 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:57:04,590 :WARNING : setup : for row_number 26 the coulum 28 is not present
+2021-06-18 17:57:05,116 :ERROR : setup : Message: 
+
+2021-06-18 17:57:05,120 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:57:10,314 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=253-15-11-2021-magra-u21-bel-abbes-u21 is not present
+2021-06-18 17:57:10,314 :WARNING : setup : for row_number 26 the coulum 29 is not present
+2021-06-18 17:57:15,553 :ERROR : setup : Message: 
+
+2021-06-18 17:57:15,558 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:57:22,342 :ERROR : setup : Message: 
+
+2021-06-18 17:57:22,353 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:22,886 :ERROR : setup : Message: 
+
+2021-06-18 17:57:22,890 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:24,440 :ERROR : setup : Message: 
+
+2021-06-18 17:57:24,611 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:29,978 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:29,978 :WARNING : setup : for row_number 27 the coulum 13 is not present
+2021-06-18 17:57:30,534 :ERROR : setup : Message: 
+
+2021-06-18 17:57:30,541 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:35,873 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:35,873 :WARNING : setup : for row_number 27 the coulum 14 is not present
+2021-06-18 17:57:36,397 :ERROR : setup : Message: 
+
+2021-06-18 17:57:36,401 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:41,597 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:41,597 :WARNING : setup : for row_number 27 the coulum 15 is not present
+2021-06-18 17:57:43,422 :ERROR : setup : Message: 
+
+2021-06-18 17:57:43,430 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:48,663 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:48,663 :WARNING : setup : for row_number 27 the coulum 25 is not present
+2021-06-18 17:57:49,179 :ERROR : setup : Message: 
+
+2021-06-18 17:57:49,185 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:54,622 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:57:54,622 :WARNING : setup : for row_number 27 the coulum 26 is not present
+2021-06-18 17:57:55,289 :ERROR : setup : Message: 
+
+2021-06-18 17:57:55,304 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:58:00,595 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:58:00,596 :WARNING : setup : for row_number 27 the coulum 28 is not present
+2021-06-18 17:58:01,112 :ERROR : setup : Message: 
+
+2021-06-18 17:58:01,117 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:58:06,316 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=251-6-12-2021-mc-oran-u21-mc-alger-u21 is not present
+2021-06-18 17:58:06,316 :WARNING : setup : for row_number 27 the coulum 29 is not present
+2021-06-18 17:58:13,411 :ERROR : setup : Message: 
+
+2021-06-18 17:58:13,420 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:58:18,356 :ERROR : setup : Message: 
+
+2021-06-18 17:58:18,365 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:18,883 :ERROR : setup : Message: 
+
+2021-06-18 17:58:18,888 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:20,223 :ERROR : setup : Message: 
+
+2021-06-18 17:58:20,228 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:25,377 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:25,377 :WARNING : setup : for row_number 28 the coulum 13 is not present
+2021-06-18 17:58:25,895 :ERROR : setup : Message: 
+
+2021-06-18 17:58:26,088 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:31,391 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:31,391 :WARNING : setup : for row_number 28 the coulum 14 is not present
+2021-06-18 17:58:31,905 :ERROR : setup : Message: 
+
+2021-06-18 17:58:31,909 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:37,092 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:37,092 :WARNING : setup : for row_number 28 the coulum 15 is not present
+2021-06-18 17:58:38,562 :ERROR : setup : Message: 
+
+2021-06-18 17:58:38,567 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:43,744 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:43,744 :WARNING : setup : for row_number 28 the coulum 25 is not present
+2021-06-18 17:58:44,271 :ERROR : setup : Message: 
+
+2021-06-18 17:58:44,275 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:49,430 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:49,430 :WARNING : setup : for row_number 28 the coulum 26 is not present
+2021-06-18 17:58:50,057 :ERROR : setup : Message: 
+
+2021-06-18 17:58:50,061 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:55,237 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:58:55,237 :WARNING : setup : for row_number 28 the coulum 28 is not present
+2021-06-18 17:58:55,761 :ERROR : setup : Message: 
+
+2021-06-18 17:58:55,766 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:59:00,939 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=258-18-10-2021-saoura-u21-skikda-u21 is not present
+2021-06-18 17:59:00,939 :WARNING : setup : for row_number 28 the coulum 29 is not present
+2021-06-18 17:59:05,164 :ERROR : setup : Message: 
+
+2021-06-18 17:59:05,213 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 17:59:09,963 :ERROR : setup : Message: 
+
+2021-06-18 17:59:09,972 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:10,496 :ERROR : setup : Message: 
+
+2021-06-18 17:59:10,502 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:11,853 :ERROR : setup : Message: 
+
+2021-06-18 17:59:11,859 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:16,976 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:16,976 :WARNING : setup : for row_number 29 the coulum 13 is not present
+2021-06-18 17:59:17,499 :ERROR : setup : Message: 
+
+2021-06-18 17:59:17,512 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:22,758 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:22,758 :WARNING : setup : for row_number 29 the coulum 14 is not present
+2021-06-18 17:59:23,285 :ERROR : setup : Message: 
+
+2021-06-18 17:59:23,291 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:28,479 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:28,479 :WARNING : setup : for row_number 29 the coulum 15 is not present
+2021-06-18 17:59:29,986 :ERROR : setup : Message: 
+
+2021-06-18 17:59:29,990 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:35,162 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:35,163 :WARNING : setup : for row_number 29 the coulum 25 is not present
+2021-06-18 17:59:35,692 :ERROR : setup : Message: 
+
+2021-06-18 17:59:35,696 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:40,887 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:40,887 :WARNING : setup : for row_number 29 the coulum 26 is not present
+2021-06-18 17:59:41,507 :ERROR : setup : Message: 
+
+2021-06-18 17:59:41,511 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:46,689 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:46,689 :WARNING : setup : for row_number 29 the coulum 28 is not present
+2021-06-18 17:59:47,215 :ERROR : setup : Message: 
+
+2021-06-18 17:59:47,220 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:52,422 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=algeria3&stats=252-2-17-2021-tlemcen-u21-o.-medea-u21 is not present
+2021-06-18 17:59:52,422 :WARNING : setup : for row_number 29 the coulum 29 is not present
+2021-06-18 17:59:56,124 :ERROR : setup : Message: 
+
+2021-06-18 17:59:56,168 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:00:03,271 :ERROR : setup : Message: 
+
+2021-06-18 18:00:03,284 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=101-7-9-2021-camioneros-olimpo-bahia-b. is not present
+2021-06-18 18:00:03,817 :ERROR : setup : Message: 
+
+2021-06-18 18:00:03,821 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=101-7-9-2021-camioneros-olimpo-bahia-b. is not present
+2021-06-18 18:00:08,075 :ERROR : setup : Message: 
+
+2021-06-18 18:00:08,079 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=101-7-9-2021-camioneros-olimpo-bahia-b. is not present
+2021-06-18 18:00:13,226 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=101-7-9-2021-camioneros-olimpo-bahia-b. is not present
+2021-06-18 18:00:13,226 :WARNING : setup : for row_number 30 the coulum 28 is not present
+2021-06-18 18:00:13,747 :ERROR : setup : Message: 
+
+2021-06-18 18:00:13,750 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=101-7-9-2021-camioneros-olimpo-bahia-b. is not present
+2021-06-18 18:00:19,163 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=101-7-9-2021-camioneros-olimpo-bahia-b. is not present
+2021-06-18 18:00:19,164 :WARNING : setup : for row_number 30 the coulum 29 is not present
+2021-06-18 18:00:23,107 :ERROR : setup : Message: 
+
+2021-06-18 18:00:23,110 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:00:29,425 :ERROR : setup : Message: 
+
+2021-06-18 18:00:29,434 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=91-6-12-2021-ferro-circulo-d. is not present
+2021-06-18 18:00:29,957 :ERROR : setup : Message: 
+
+2021-06-18 18:00:29,961 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=91-6-12-2021-ferro-circulo-d. is not present
+2021-06-18 18:00:34,321 :ERROR : setup : Message: 
+
+2021-06-18 18:00:34,326 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=91-6-12-2021-ferro-circulo-d. is not present
+2021-06-18 18:00:39,608 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=91-6-12-2021-ferro-circulo-d. is not present
+2021-06-18 18:00:39,608 :WARNING : setup : for row_number 31 the coulum 28 is not present
+2021-06-18 18:00:40,139 :ERROR : setup : Message: 
+
+2021-06-18 18:00:40,144 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=91-6-12-2021-ferro-circulo-d. is not present
+2021-06-18 18:00:45,168 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=91-6-12-2021-ferro-circulo-d. is not present
+2021-06-18 18:00:45,168 :WARNING : setup : for row_number 31 the coulum 29 is not present
+2021-06-18 18:00:49,193 :ERROR : setup : Message: 
+
+2021-06-18 18:00:49,197 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:00:54,352 :ERROR : setup : Message: 
+
+2021-06-18 18:00:54,362 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=100-19-11-2021-hurac%E1n-las-h.-d.-madryn is not present
+2021-06-18 18:00:54,898 :ERROR : setup : Message: 
+
+2021-06-18 18:00:54,902 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=100-19-11-2021-hurac%E1n-las-h.-d.-madryn is not present
+2021-06-18 18:00:59,110 :ERROR : setup : Message: 
+
+2021-06-18 18:00:59,114 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=100-19-11-2021-hurac%E1n-las-h.-d.-madryn is not present
+2021-06-18 18:01:04,330 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=100-19-11-2021-hurac%E1n-las-h.-d.-madryn is not present
+2021-06-18 18:01:04,330 :WARNING : setup : for row_number 32 the coulum 28 is not present
+2021-06-18 18:01:04,853 :ERROR : setup : Message: 
+
+2021-06-18 18:01:04,857 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=100-19-11-2021-hurac%E1n-las-h.-d.-madryn is not present
+2021-06-18 18:01:10,357 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=100-19-11-2021-hurac%E1n-las-h.-d.-madryn is not present
+2021-06-18 18:01:10,357 :WARNING : setup : for row_number 32 the coulum 29 is not present
+2021-06-18 18:01:14,610 :ERROR : setup : Message: 
+
+2021-06-18 18:01:14,615 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:01:19,873 :ERROR : setup : Message: 
+
+2021-06-18 18:01:19,881 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=102-29-17-2021-juventud-u.-u.-cs-penarol is not present
+2021-06-18 18:01:20,405 :ERROR : setup : Message: 
+
+2021-06-18 18:01:20,409 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=102-29-17-2021-juventud-u.-u.-cs-penarol is not present
+2021-06-18 18:01:24,719 :ERROR : setup : Message: 
+
+2021-06-18 18:01:24,723 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=102-29-17-2021-juventud-u.-u.-cs-penarol is not present
+2021-06-18 18:01:29,929 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=102-29-17-2021-juventud-u.-u.-cs-penarol is not present
+2021-06-18 18:01:29,929 :WARNING : setup : for row_number 33 the coulum 28 is not present
+2021-06-18 18:01:30,458 :ERROR : setup : Message: 
+
+2021-06-18 18:01:30,462 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=102-29-17-2021-juventud-u.-u.-cs-penarol is not present
+2021-06-18 18:01:35,851 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=102-29-17-2021-juventud-u.-u.-cs-penarol is not present
+2021-06-18 18:01:35,851 :WARNING : setup : for row_number 33 the coulum 29 is not present
+2021-06-18 18:01:39,020 :ERROR : setup : Message: 
+
+2021-06-18 18:01:39,025 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:01:43,977 :ERROR : setup : Message: 
+
+2021-06-18 18:01:43,985 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=94-15-21-2021-pronunciamiento-racing-cordoba is not present
+2021-06-18 18:01:44,505 :ERROR : setup : Message: 
+
+2021-06-18 18:01:44,510 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=94-15-21-2021-pronunciamiento-racing-cordoba is not present
+2021-06-18 18:01:48,333 :ERROR : setup : Message: 
+
+2021-06-18 18:01:48,337 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=94-15-21-2021-pronunciamiento-racing-cordoba is not present
+2021-06-18 18:01:53,562 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=94-15-21-2021-pronunciamiento-racing-cordoba is not present
+2021-06-18 18:01:53,562 :WARNING : setup : for row_number 34 the coulum 28 is not present
+2021-06-18 18:01:54,074 :ERROR : setup : Message: 
+
+2021-06-18 18:01:54,078 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=94-15-21-2021-pronunciamiento-racing-cordoba is not present
+2021-06-18 18:01:59,549 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=94-15-21-2021-pronunciamiento-racing-cordoba is not present
+2021-06-18 18:01:59,549 :WARNING : setup : for row_number 34 the coulum 29 is not present
+2021-06-18 18:02:03,600 :ERROR : setup : Message: 
+
+2021-06-18 18:02:03,604 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:02:08,684 :ERROR : setup : Message: 
+
+2021-06-18 18:02:08,693 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=104-8-18-2021-s.-desamparados-i.-chivilcoy is not present
+2021-06-18 18:02:09,231 :ERROR : setup : Message: 
+
+2021-06-18 18:02:09,237 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=104-8-18-2021-s.-desamparados-i.-chivilcoy is not present
+2021-06-18 18:02:13,192 :ERROR : setup : Message: 
+
+2021-06-18 18:02:13,196 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=104-8-18-2021-s.-desamparados-i.-chivilcoy is not present
+2021-06-18 18:02:18,458 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=104-8-18-2021-s.-desamparados-i.-chivilcoy is not present
+2021-06-18 18:02:18,458 :WARNING : setup : for row_number 35 the coulum 28 is not present
+2021-06-18 18:02:18,981 :ERROR : setup : Message: 
+
+2021-06-18 18:02:18,985 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=104-8-18-2021-s.-desamparados-i.-chivilcoy is not present
+2021-06-18 18:02:24,454 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=104-8-18-2021-s.-desamparados-i.-chivilcoy is not present
+2021-06-18 18:02:24,454 :WARNING : setup : for row_number 35 the coulum 29 is not present
+2021-06-18 18:02:29,200 :ERROR : setup : Message: 
+
+2021-06-18 18:02:29,204 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:02:34,085 :ERROR : setup : Message: 
+
+2021-06-18 18:02:34,093 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=99-5-3-2021-sol-de-mayo-ciudad-bolivar is not present
+2021-06-18 18:02:34,615 :ERROR : setup : Message: 
+
+2021-06-18 18:02:34,619 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=99-5-3-2021-sol-de-mayo-ciudad-bolivar is not present
+2021-06-18 18:02:38,407 :ERROR : setup : Message: 
+
+2021-06-18 18:02:38,442 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=99-5-3-2021-sol-de-mayo-ciudad-bolivar is not present
+2021-06-18 18:02:43,655 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=99-5-3-2021-sol-de-mayo-ciudad-bolivar is not present
+2021-06-18 18:02:43,655 :WARNING : setup : for row_number 36 the coulum 28 is not present
+2021-06-18 18:02:44,179 :ERROR : setup : Message: 
+
+2021-06-18 18:02:44,184 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=99-5-3-2021-sol-de-mayo-ciudad-bolivar is not present
+2021-06-18 18:02:49,692 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=99-5-3-2021-sol-de-mayo-ciudad-bolivar is not present
+2021-06-18 18:02:49,693 :WARNING : setup : for row_number 36 the coulum 29 is not present
+2021-06-18 18:02:53,073 :ERROR : setup : Message: 
+
+2021-06-18 18:02:53,077 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:02:57,705 :ERROR : setup : Message: 
+
+2021-06-18 18:02:57,713 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=105-20-10-2021-villa-mitre-cipolletti is not present
+2021-06-18 18:02:58,238 :ERROR : setup : Message: 
+
+2021-06-18 18:02:58,242 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=105-20-10-2021-villa-mitre-cipolletti is not present
+2021-06-18 18:03:02,738 :ERROR : setup : Message: 
+
+2021-06-18 18:03:02,766 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=105-20-10-2021-villa-mitre-cipolletti is not present
+2021-06-18 18:03:08,138 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=105-20-10-2021-villa-mitre-cipolletti is not present
+2021-06-18 18:03:08,138 :WARNING : setup : for row_number 37 the coulum 28 is not present
+2021-06-18 18:03:08,656 :ERROR : setup : Message: 
+
+2021-06-18 18:03:08,660 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=105-20-10-2021-villa-mitre-cipolletti is not present
+2021-06-18 18:03:13,749 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=105-20-10-2021-villa-mitre-cipolletti is not present
+2021-06-18 18:03:13,749 :WARNING : setup : for row_number 37 the coulum 29 is not present
+2021-06-18 18:03:17,642 :ERROR : setup : Message: 
+
+2021-06-18 18:03:17,646 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:03:22,176 :ERROR : setup : Message: 
+
+2021-06-18 18:03:22,189 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=98-2-26-2021-ju-gualeguaychu-boca-unidos is not present
+2021-06-18 18:03:22,706 :ERROR : setup : Message: 
+
+2021-06-18 18:03:22,710 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=98-2-26-2021-ju-gualeguaychu-boca-unidos is not present
+2021-06-18 18:03:25,799 :ERROR : setup : Message: 
+
+2021-06-18 18:03:25,803 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=98-2-26-2021-ju-gualeguaychu-boca-unidos is not present
+2021-06-18 18:03:31,132 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=98-2-26-2021-ju-gualeguaychu-boca-unidos is not present
+2021-06-18 18:03:31,133 :WARNING : setup : for row_number 38 the coulum 28 is not present
+2021-06-18 18:03:31,738 :ERROR : setup : Message: 
+
+2021-06-18 18:03:31,770 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=98-2-26-2021-ju-gualeguaychu-boca-unidos is not present
+2021-06-18 18:03:36,888 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=98-2-26-2021-ju-gualeguaychu-boca-unidos is not present
+2021-06-18 18:03:36,889 :WARNING : setup : for row_number 38 the coulum 29 is not present
+2021-06-18 18:03:41,502 :ERROR : setup : Message: 
+
+2021-06-18 18:03:41,506 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:03:46,418 :ERROR : setup : Message: 
+
+2021-06-18 18:03:46,428 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=96-14-22-2021-sarmiento-r.-douglas-haig is not present
+2021-06-18 18:03:46,948 :ERROR : setup : Message: 
+
+2021-06-18 18:03:46,952 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=96-14-22-2021-sarmiento-r.-douglas-haig is not present
+2021-06-18 18:03:49,962 :ERROR : setup : Message: 
+
+2021-06-18 18:03:49,966 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=96-14-22-2021-sarmiento-r.-douglas-haig is not present
+2021-06-18 18:03:55,257 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=96-14-22-2021-sarmiento-r.-douglas-haig is not present
+2021-06-18 18:03:55,257 :WARNING : setup : for row_number 39 the coulum 28 is not present
+2021-06-18 18:03:55,779 :ERROR : setup : Message: 
+
+2021-06-18 18:03:55,794 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=96-14-22-2021-sarmiento-r.-douglas-haig is not present
+2021-06-18 18:04:00,939 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=96-14-22-2021-sarmiento-r.-douglas-haig is not present
+2021-06-18 18:04:00,940 :WARNING : setup : for row_number 39 the coulum 29 is not present
+2021-06-18 18:04:05,511 :ERROR : setup : Message: 
+
+2021-06-18 18:04:05,515 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:04:09,948 :ERROR : setup : Message: 
+
+2021-06-18 18:04:09,958 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=93-13-27-2021-d.-belgrano-vr-chaco-for-ever is not present
+2021-06-18 18:04:10,491 :ERROR : setup : Message: 
+
+2021-06-18 18:04:10,495 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=93-13-27-2021-d.-belgrano-vr-chaco-for-ever is not present
+2021-06-18 18:04:13,600 :ERROR : setup : Message: 
+
+2021-06-18 18:04:13,604 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=93-13-27-2021-d.-belgrano-vr-chaco-for-ever is not present
+2021-06-18 18:04:18,837 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=93-13-27-2021-d.-belgrano-vr-chaco-for-ever is not present
+2021-06-18 18:04:18,838 :WARNING : setup : for row_number 40 the coulum 28 is not present
+2021-06-18 18:04:19,369 :ERROR : setup : Message: 
+
+2021-06-18 18:04:19,412 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=93-13-27-2021-d.-belgrano-vr-chaco-for-ever is not present
+2021-06-18 18:04:24,612 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=93-13-27-2021-d.-belgrano-vr-chaco-for-ever is not present
+2021-06-18 18:04:24,612 :WARNING : setup : for row_number 40 the coulum 29 is not present
+2021-06-18 18:04:28,615 :ERROR : setup : Message: 
+
+2021-06-18 18:04:28,642 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:04:33,618 :ERROR : setup : Message: 
+
+2021-06-18 18:04:33,626 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=95-16-31-2021-s.-belgrano-gimnasia-y-e. is not present
+2021-06-18 18:04:34,141 :ERROR : setup : Message: 
+
+2021-06-18 18:04:34,146 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=95-16-31-2021-s.-belgrano-gimnasia-y-e. is not present
+2021-06-18 18:04:37,194 :ERROR : setup : Message: 
+
+2021-06-18 18:04:37,198 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=95-16-31-2021-s.-belgrano-gimnasia-y-e. is not present
+2021-06-18 18:04:42,478 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=95-16-31-2021-s.-belgrano-gimnasia-y-e. is not present
+2021-06-18 18:04:42,478 :WARNING : setup : for row_number 41 the coulum 28 is not present
+2021-06-18 18:04:42,998 :ERROR : setup : Message: 
+
+2021-06-18 18:04:43,027 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=95-16-31-2021-s.-belgrano-gimnasia-y-e. is not present
+2021-06-18 18:04:48,207 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=argentina9&stats=95-16-31-2021-s.-belgrano-gimnasia-y-e. is not present
+2021-06-18 18:04:48,207 :WARNING : setup : for row_number 41 the coulum 29 is not present
+2021-06-18 18:04:52,968 :ERROR : setup : Message: 
+
+2021-06-18 18:04:53,014 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:04:58,010 :ERROR : setup : Message: 
+
+2021-06-18 18:04:58,020 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=australia&stats=303-6-2-2021-sydney-fc-adelaide-utd is not present
+2021-06-18 18:04:58,561 :ERROR : setup : Message: 
+
+2021-06-18 18:04:58,564 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=australia&stats=303-6-2-2021-sydney-fc-adelaide-utd is not present
+2021-06-18 18:05:06,052 :ERROR : setup : Message: 
+
+2021-06-18 18:05:06,058 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:05:10,749 :ERROR : setup : Message: 
+
+2021-06-18 18:05:10,760 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:11,277 :ERROR : setup : Message: 
+
+2021-06-18 18:05:11,281 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:12,540 :ERROR : setup : Message: 
+
+2021-06-18 18:05:12,544 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:17,751 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:17,751 :WARNING : setup : for row_number 43 the coulum 13 is not present
+2021-06-18 18:05:18,326 :ERROR : setup : Message: 
+
+2021-06-18 18:05:18,336 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:23,845 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:23,845 :WARNING : setup : for row_number 43 the coulum 14 is not present
+2021-06-18 18:05:24,373 :ERROR : setup : Message: 
+
+2021-06-18 18:05:24,377 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:29,563 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:29,563 :WARNING : setup : for row_number 43 the coulum 15 is not present
+2021-06-18 18:05:31,057 :ERROR : setup : Message: 
+
+2021-06-18 18:05:31,061 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:36,233 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:36,233 :WARNING : setup : for row_number 43 the coulum 25 is not present
+2021-06-18 18:05:36,758 :ERROR : setup : Message: 
+
+2021-06-18 18:05:36,762 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:41,915 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:41,915 :WARNING : setup : for row_number 43 the coulum 26 is not present
+2021-06-18 18:05:42,540 :ERROR : setup : Message: 
+
+2021-06-18 18:05:42,544 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:47,701 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:47,701 :WARNING : setup : for row_number 43 the coulum 28 is not present
+2021-06-18 18:05:48,223 :ERROR : setup : Message: 
+
+2021-06-18 18:05:48,227 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:53,392 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=115-7-4-2021-avondale-dandenong-city is not present
+2021-06-18 18:05:53,392 :WARNING : setup : for row_number 43 the coulum 29 is not present
+2021-06-18 18:06:00,826 :ERROR : setup : Message: 
+
+2021-06-18 18:06:00,830 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:06:06,053 :ERROR : setup : Message: 
+
+2021-06-18 18:06:06,062 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:06,600 :ERROR : setup : Message: 
+
+2021-06-18 18:06:06,604 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:07,924 :ERROR : setup : Message: 
+
+2021-06-18 18:06:07,928 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:13,113 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:13,113 :WARNING : setup : for row_number 44 the coulum 13 is not present
+2021-06-18 18:06:13,694 :ERROR : setup : Message: 
+
+2021-06-18 18:06:13,728 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:19,260 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:19,260 :WARNING : setup : for row_number 44 the coulum 14 is not present
+2021-06-18 18:06:19,793 :ERROR : setup : Message: 
+
+2021-06-18 18:06:19,797 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:24,976 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:24,977 :WARNING : setup : for row_number 44 the coulum 15 is not present
+2021-06-18 18:06:26,460 :ERROR : setup : Message: 
+
+2021-06-18 18:06:26,464 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:31,624 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:31,624 :WARNING : setup : for row_number 44 the coulum 25 is not present
+2021-06-18 18:06:32,149 :ERROR : setup : Message: 
+
+2021-06-18 18:06:32,153 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:37,314 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:37,314 :WARNING : setup : for row_number 44 the coulum 26 is not present
+2021-06-18 18:06:37,937 :ERROR : setup : Message: 
+
+2021-06-18 18:06:37,942 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:43,125 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:43,125 :WARNING : setup : for row_number 44 the coulum 28 is not present
+2021-06-18 18:06:43,652 :ERROR : setup : Message: 
+
+2021-06-18 18:06:43,656 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:48,836 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=116-9-2-2021-hume-city-melbourne-k. is not present
+2021-06-18 18:06:48,836 :WARNING : setup : for row_number 44 the coulum 29 is not present
+2021-06-18 18:06:53,629 :ERROR : setup : Message: 
+
+2021-06-18 18:06:53,632 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:06:58,822 :ERROR : setup : Message: 
+
+2021-06-18 18:06:58,831 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:06:59,371 :ERROR : setup : Message: 
+
+2021-06-18 18:06:59,376 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:00,753 :ERROR : setup : Message: 
+
+2021-06-18 18:07:00,757 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:05,966 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:05,966 :WARNING : setup : for row_number 45 the coulum 13 is not present
+2021-06-18 18:07:06,490 :ERROR : setup : Message: 
+
+2021-06-18 18:07:06,591 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:12,353 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:12,354 :WARNING : setup : for row_number 45 the coulum 14 is not present
+2021-06-18 18:07:12,874 :ERROR : setup : Message: 
+
+2021-06-18 18:07:12,893 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:18,153 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:18,153 :WARNING : setup : for row_number 45 the coulum 15 is not present
+2021-06-18 18:07:19,633 :ERROR : setup : Message: 
+
+2021-06-18 18:07:19,637 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:24,801 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:24,801 :WARNING : setup : for row_number 45 the coulum 25 is not present
+2021-06-18 18:07:25,316 :ERROR : setup : Message: 
+
+2021-06-18 18:07:25,565 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:30,806 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:30,806 :WARNING : setup : for row_number 45 the coulum 26 is not present
+2021-06-18 18:07:31,427 :ERROR : setup : Message: 
+
+2021-06-18 18:07:31,431 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:36,600 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:36,601 :WARNING : setup : for row_number 45 the coulum 28 is not present
+2021-06-18 18:07:37,127 :ERROR : setup : Message: 
+
+2021-06-18 18:07:37,132 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:42,310 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia3&stats=117-3-5-2021-dandenong-t.-eastern-lions is not present
+2021-06-18 18:07:42,310 :WARNING : setup : for row_number 45 the coulum 29 is not present
+2021-06-18 18:07:47,033 :ERROR : setup : Message: 
+
+2021-06-18 18:07:47,038 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:07:51,922 :ERROR : setup : Message: 
+
+2021-06-18 18:07:51,931 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:07:52,462 :ERROR : setup : Message: 
+
+2021-06-18 18:07:52,623 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:07:54,237 :ERROR : setup : Message: 
+
+2021-06-18 18:07:54,241 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:07:59,536 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:07:59,536 :WARNING : setup : for row_number 46 the coulum 13 is not present
+2021-06-18 18:08:00,123 :ERROR : setup : Message: 
+
+2021-06-18 18:08:00,149 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:05,203 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:05,203 :WARNING : setup : for row_number 46 the coulum 14 is not present
+2021-06-18 18:08:05,726 :ERROR : setup : Message: 
+
+2021-06-18 18:08:05,730 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:11,098 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:11,098 :WARNING : setup : for row_number 46 the coulum 15 is not present
+2021-06-18 18:08:12,582 :ERROR : setup : Message: 
+
+2021-06-18 18:08:12,586 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:17,761 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:17,761 :WARNING : setup : for row_number 46 the coulum 25 is not present
+2021-06-18 18:08:18,285 :ERROR : setup : Message: 
+
+2021-06-18 18:08:18,289 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:23,462 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:23,462 :WARNING : setup : for row_number 46 the coulum 26 is not present
+2021-06-18 18:08:24,085 :ERROR : setup : Message: 
+
+2021-06-18 18:08:24,089 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:29,266 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:29,268 :WARNING : setup : for row_number 46 the coulum 28 is not present
+2021-06-18 18:08:29,794 :ERROR : setup : Message: 
+
+2021-06-18 18:08:29,798 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:34,973 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=34-10-12-2021-balcatta-ecu-joondalup is not present
+2021-06-18 18:08:34,973 :WARNING : setup : for row_number 46 the coulum 29 is not present
+2021-06-18 18:08:40,935 :ERROR : setup : Message: 
+
+2021-06-18 18:08:40,939 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:08:46,482 :ERROR : setup : Message: 
+
+2021-06-18 18:08:47,272 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:08:47,795 :ERROR : setup : Message: 
+
+2021-06-18 18:08:47,832 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:08:49,276 :ERROR : setup : Message: 
+
+2021-06-18 18:08:49,281 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:08:54,586 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:08:54,586 :WARNING : setup : for row_number 47 the coulum 13 is not present
+2021-06-18 18:08:55,105 :ERROR : setup : Message: 
+
+2021-06-18 18:08:55,111 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:00,460 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:00,460 :WARNING : setup : for row_number 47 the coulum 14 is not present
+2021-06-18 18:09:00,985 :ERROR : setup : Message: 
+
+2021-06-18 18:09:00,989 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:06,175 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:06,175 :WARNING : setup : for row_number 47 the coulum 15 is not present
+2021-06-18 18:09:07,681 :ERROR : setup : Message: 
+
+2021-06-18 18:09:07,685 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:12,864 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:12,864 :WARNING : setup : for row_number 47 the coulum 25 is not present
+2021-06-18 18:09:13,386 :ERROR : setup : Message: 
+
+2021-06-18 18:09:13,390 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:18,573 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:18,573 :WARNING : setup : for row_number 47 the coulum 26 is not present
+2021-06-18 18:09:19,197 :ERROR : setup : Message: 
+
+2021-06-18 18:09:19,201 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:24,374 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:24,374 :WARNING : setup : for row_number 47 the coulum 28 is not present
+2021-06-18 18:09:24,890 :ERROR : setup : Message: 
+
+2021-06-18 18:09:24,894 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:30,054 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=33-5-4-2021-bayswater-inglewood-utd is not present
+2021-06-18 18:09:30,054 :WARNING : setup : for row_number 47 the coulum 29 is not present
+2021-06-18 18:09:35,170 :ERROR : setup : Message: 
+
+2021-06-18 18:09:35,186 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
+2021-06-18 18:09:40,925 :ERROR : setup : Message: 
+
+2021-06-18 18:09:41,027 :WARNING : setup : the locator ('css selector', "div[class='btn skip dismiss-button-container']") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:09:41,555 :ERROR : setup : Message: 
+
+2021-06-18 18:09:41,872 :WARNING : setup : the locator ('xpath', "//span[text()='Close']") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:09:43,454 :ERROR : setup : Message: 
+
+2021-06-18 18:09:43,457 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 0.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:09:48,834 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:09:48,835 :WARNING : setup : for row_number 48 the coulum 13 is not present
+2021-06-18 18:09:49,365 :ERROR : setup : Message: 
+
+2021-06-18 18:09:49,369 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 1.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:09:54,682 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:09:54,682 :WARNING : setup : for row_number 48 the coulum 14 is not present
+2021-06-18 18:09:55,198 :ERROR : setup : Message: 
+
+2021-06-18 18:09:55,202 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 2.5 g. at halftime']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:10:00,385 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:10:00,385 :WARNING : setup : for row_number 48 the coulum 15 is not present
+2021-06-18 18:10:01,975 :ERROR : setup : Message: 
+
+2021-06-18 18:10:01,979 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:10:07,155 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:10:07,155 :WARNING : setup : for row_number 48 the coulum 25 is not present
+2021-06-18 18:10:07,673 :ERROR : setup : Message: 
+
+2021-06-18 18:10:07,677 :WARNING : setup : the locator ('xpath', "(//td[text()='Scored in both halves']/parent::tr/td/font[@style='font-size:14px;'])[2]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:10:12,838 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:10:12,838 :WARNING : setup : for row_number 48 the coulum 26 is not present
+2021-06-18 18:10:13,457 :ERROR : setup : Message: 
+
+2021-06-18 18:10:13,461 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 9.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:10:18,640 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:10:18,640 :WARNING : setup : for row_number 48 the coulum 28 is not present
+2021-06-18 18:10:19,164 :ERROR : setup : Message: 
+
+2021-06-18 18:10:19,168 :WARNING : setup : the locator ('xpath', "(//td[text()='Over 10.5 corners']/parent::tr/td/font[@style='font-size:14px;'])[1]") on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:10:24,341 :WARNING : setup : the locator custom_locator on url https://www.soccerstats.com/pmatch.asp?league=australia5&stats=36-8-3-2021-perth-glory-b-armadale is not present
+2021-06-18 18:10:24,342 :WARNING : setup : for row_number 48 the coulum 29 is not present
+2021-06-18 18:10:35,633 :ERROR : setup : Message: 
+
+2021-06-18 18:10:35,651 :WARNING : setup : the locator ('css selector', "button[class=' css-47sehv']") on url https://www.soccerstats.com/matches.asp?matchday=2&daym=tomorrow is not present
